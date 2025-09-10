@@ -30,21 +30,21 @@ $$X \xleftrightarrow{e}\begin{pmatrix}
     x^2 \\
     \vdots \\
     x^n
-\end{pmatrix} =x$$ 
+\end{pmatrix} =x$$
 $f(X) = f(x^ie_i) = x^if(e_i) = x^ia_i$, где $f(e_i) = a_i \in K$. $f(X) = a_1x^1+a_2x^2 + \ldots + a_n x^n$.
 
-$f \leftrightarrow a= (a_1,\ldots, a_n)$ строка. 
+$f \leftrightarrow a= (a_1,\ldots, a_n)$ строка.
 
 То есть теперь на самом деле функции описываются строками --- значениями на базисных векторах.
 
-Поэтому $V^* = (K^n)^T$. А уже откуда следует, что $\dim V^*  = n$. 
+Поэтому $V^* = (K^n)^T$. А уже откуда следует, что $\dim V^*  = n$.
 
 Это взаимооднозначное соответствие, оно, очевидно, линейно, откуда это соответствие -  изоморфизм.
 
 
 
 
-\textbf{Пример:} 
+\textbf{Пример:}
 
  Возьмем и посмотрим на скалярное произведение в
 $V_3, \, \bar{b}= const$. $\forall X \in V_3, \, f(\bar{X})=(\bar{X}, \bar{b})$.
@@ -57,7 +57,7 @@ $f(\bar{X})=a_1b_1+a_2b_2+a_3b_3, $ у нас строка $f \leftrightarrow (b
 
 \deff{def:} $V$, $e = (e_1,\ldots, e_n)$ базис.
 
-$\forall x \in V: w^i(x) = x^i$ --- $i$-ая координата вектора $x$ относительно базиса $e$.  
+$\forall x \in V: w^i(x) = x^i$ --- $i$-ая координата вектора $x$ относительно базиса $e$.
 
 $w^i$ называется \deff{координатной функцией}.
 
@@ -69,13 +69,13 @@ $w^i$ называется \deff{координатной функцией}.
 
 \textbf{Доказательство:}
 
-\uline{Докажем порождаемость}: 
+\uline{Докажем порождаемость}:
 
 $\forall f \in V^*: \forall x \in V: f(x) = x^i a_i = w^i(x)a_i$, где $a_i \in K$ --- порождаемое
 
 \uline{Докажем линейную независимость}:
 
-Покажем единственность разложения нуля: $\zero = \alpha_i w^i $, где $\alpha_i \in K$. 
+Покажем единственность разложения нуля: $\zero = \alpha_i w^i $, где $\alpha_i \in K$.
 
 $\forall x \in V$ должно быть выполнено: $ \, \alpha_iw^i(x)=\zero$
 
@@ -111,7 +111,7 @@ $ w^1,\dots,w^n $ координатные функции относительн
 
 Возьмем $w'$. Так как он базис и $w$ базис, то:  $w' =wT_{w \rightarrow w'}$
 $$(w'^1,\ldots,w'^n)=(w^1,\ldots,w^n)T_{w \to w'}$$
-\textbf{Замечание:} В данном случае формы записаны, как столбики 
+\textbf{Замечание:} В данном случае формы записаны, как столбики
 
 Давайте все транспонируем:
 $$\begin{pmatrix}
@@ -150,12 +150,12 @@ $T = T_{e\rightarrow e'}, S = T^{-1}$
 
 $ \Rightarrow \forall x \in V: \forall f \in V^*:x' = Sx, a' = aT$, где $a$ - разложение $f$ в базисе.
 
-\textbf{Доказательство:}    
+\textbf{Доказательство:}
 
-$T=T_{e\rightarrow e'}$ и мы уже знаем, что $x' = T_{e'\rightarrow e}x = Sx$ 
+$T=T_{e\rightarrow e'}$ и мы уже знаем, что $x' = T_{e'\rightarrow e}x = Sx$
 
 $(T_{w\rightarrow w'})^T = S$. Как мы знаем из матрицы перехода:
-$$a^T = T_{w\rightarrow w'}(a')^T$$ 
+$$a^T = T_{w\rightarrow w'}(a')^T$$
 Откуда:
 $$a = a'(T_{w\rightarrow w'})^T = a'S$$
 А уже отсюда получаем, что $a' = aS^{-1} = aT$.
@@ -178,13 +178,13 @@ $x' = Sx$
 
 Позамечаем интересные факты:
 
-$\forall f \in V^* \leftrightarrow (a_1,\ldots, a_n), a_j = f(e_j)$ - каждой функции, как и говорилось ранее, на заданном базисе, я могу сопоставить $a$. Поэтому возьму $n$ функций и векторов, и захочу посчитать значение каждой функции в каждой точке : 
+$\forall f \in V^* \leftrightarrow (a_1,\ldots, a_n), a_j = f(e_j)$ - каждой функции, как и говорилось ранее, на заданном базисе, я могу сопоставить $a$. Поэтому возьму $n$ функций и векторов, и захочу посчитать значение каждой функции в каждой точке :
 
 $\forall f^1, \ldots f^n \in V^*: f^j \xleftrightarrow{w} a^j = (a_1^j,\ldots , a_n^j)$
 
 $\forall x_1, \ldots, x_n \in V: x_i \xleftrightarrow{e}x_i = \begin{pmatrix}
     x^1_i \\
-    \vdots \\ 
+    \vdots \\
     x^n_i
 \end{pmatrix}$
 
@@ -199,15 +199,15 @@ $(f^j(x_i))_{n\times n} = \begin{pmatrix}
 
 
 $=\begin{pmatrix}
-    a_1^1 & \ldots & \ldots& a^1_n\\ 
-     a_1^2 & \ddots & \ddots& a^2_n\\ 
-      \vdots & \ddots & \ddots& \vdots\\ 
-      a_1^n & \ldots & \ldots& a^n_n\\ 
+    a_1^1 & \ldots & \ldots& a^1_n\\
+     a_1^2 & \ddots & \ddots& a^2_n\\
+      \vdots & \ddots & \ddots& \vdots\\
+      a_1^n & \ldots & \ldots& a^n_n\\
 \end{pmatrix} \cdot\begin{pmatrix}
-    x_1^1 & \ldots & \ldots& x^1_n\\ 
-     x_1^2 & \ddots & \ddots& x^2_n\\ 
-      \vdots & \ddots & \ddots& \vdots\\ 
-      x_1^n & \ldots & \ldots& x^n_n\\ 
+    x_1^1 & \ldots & \ldots& x^1_n\\
+     x_1^2 & \ddots & \ddots& x^2_n\\
+      \vdots & \ddots & \ddots& \vdots\\
+      x_1^n & \ldots & \ldots& x^n_n\\
 \end{pmatrix} = \begin{pmatrix}
     f^1\\
     f^2\\
@@ -289,7 +289,7 @@ $V = \bigoplus\limits_{\lambda}V_{\lambda} = \span (v_1,\ldots,v_n)$
 
 $w^1,\ldots,w^n$ сопряж. базис к $v$  % дописать
 
-$\Rightarrow \forall x \in V: w^j(x) =x^i: x^iv_j = x$ 
+$\Rightarrow \forall x \in V: w^j(x) =x^i: x^iv_j = x$
 
 \newpage
 \subsection{Два определения тензора. Линейное пространство тензоров. Многомерная матрица тензоров.}
@@ -309,7 +309,7 @@ $$\xi_j = \xi_j^{j_k}e_{j_k};\eta^i = \eta_{i_m}^iw^{i_m}$$
 $$f(\xi_1,\ldots,\xi_p,\eta^1,\ldots, \eta^q) = \xi_1^{j_1}\ldots\xi_p^{j_p}\eta_{i_1}^1 \ldots \eta^q_{i_q} \cdot f(e_{j_1},\ldots, e_{j_p},w^{i_1},\ldots, w^{i_q})$$
 То есть  на самом деле наша функция задается матрицей значений на базисных векторах. Обозначим $f(e_{j_1},\ldots, e_{j_p},w^{i_1},\ldots, w^{i_q}) = \alpha_{j_1,\ldots,j_p}^{i_1,\ldots,i_q}$
 
-\deff{def:} $M$ - \deff{многомерная матрица} тензора $r = (p+q)$ мерная размерности $n$. 
+\deff{def:} $M$ - \deff{многомерная матрица} тензора $r = (p+q)$ мерная размерности $n$.
 
 \textbf{Замечание:} Если говорить программистким языком, то наша матрица это просто:
 
@@ -332,7 +332,7 @@ $\alpha^{i_1,\ldots,i_q}_{j_1,\ldots, j_p} \in M_{p+q}$ - многомерная
 
 \textbf{Пример:}
 \begin{enumerate}
-    
+
 
 \item $r =2: (\alpha^i_j), (\alpha^{ij}),(\alpha_{ij})$
 
@@ -346,13 +346,13 @@ $(a^{i}_j) = \begin{pmatrix}
     \alpha^{1}_1 &\alpha^1_2 & \alpha_3^1\\
     \alpha_1^2 & \alpha_2^2 & \alpha_3^2 \\
     \alpha_1^3 & \alpha_2^3 & \alpha_3^3
-\end{pmatrix}$ 
-или 
+\end{pmatrix}$
+или
 $(a^{ij}) = \begin{pmatrix}
     \alpha^{11} &\alpha^{12} & \alpha^{13}\\
     \alpha^{21} & \alpha^{22} & \alpha^{23} \\
     \alpha^{31} & \alpha^{32} & \alpha^{33}
-\end{pmatrix}$ 
+\end{pmatrix}$
 
 \item $r=3: (\alpha^{ijk}), (\alpha^{ij}_k), (\alpha^{i}_{jk}), (\alpha_{ijk}) $
 
@@ -395,14 +395,14 @@ $(a^{ij}_{km}) = \left(
 \right)$
 
 
-\item $r=1: (\alpha^i), (a_i)$ 
+\item $r=1: (\alpha^i), (a_i)$
 
 При первой записи мы считаем, что она в столбик, а при второй считаем, что она строчка.
 
 \end{enumerate}
 
 
-\textbf{Пример:} 
+\textbf{Пример:}
 
 $f:V_3\times V_3 \rightarrow \mathbb{R}$
 
@@ -447,7 +447,7 @@ $j_1,\ldots, j_p$ ковариантные индексы матрицы, $i_1,\
 \deff{2-ое определение тензора:} $\alpha$ --- $r = p+q$ мерная матрица $n$ - геометрический объект над пространством $V$ $(\dim V =n)$, такой, что при смене базиса пространства $V$ элементы матрицы пересчитываются по формуле:
 $$\alpha_{k_1,\ldots,k_p}'^{m_1,\ldots, m_q} = \alpha_{j_1,\ldots,j_p}^{i_1,\ldots, i_q}t_{k_1}^{j_1}\ldots t_{k_p}^{j_p} s_{i_1}^{m_1}\ldots s_{i_q}^{m_q}$$(геометрический объект - независимый от выбора базиса, но согласованный с заменой базиса, т.е. после замены базиса остается тем же объектом с теми же свойствами)
 
-Если матрицы одного порядка, то мы умеем складывать их и умножать на скаляр, есть нулевая и противоположная, откуда это линейное пространство.  
+Если матрицы одного порядка, то мы умеем складывать их и умножать на скаляр, есть нулевая и противоположная, откуда это линейное пространство.
 
 Осталось показать, что эти операции не ломают второе определение (формулу перехода):
 $$(\alpha + \lambda \beta)_{k_1,\ldots,k_p}'^{\,m_1,\ldots,m_q} = \alpha_{k_1,\ldots,k_p}'^{\, m_1,\ldots, m_q} + \lambda \beta_{k_1,\ldots,k_p}'^{\, m_1,\ldots, m_q} = \alpha_{j_1,\ldots,j_p}^{i_1,\ldots,i_q} \cdot t_{k_1}^{j_1} \ldots t_{k_p}^{j_p}\cdot s_{i_1}^{m_1}\ldots s_{i_q}^{m_q} + \lambda\beta_{j_1,\ldots,j_p}^{i_1,\ldots,i_q} \cdot t_{k_1}^{j_1} \ldots t_{k_p}^{j_p}\cdot s_{i_1}^{m_1}\ldots s_{i_q}^{m_q} $$
@@ -464,7 +464,7 @@ $$= (\alpha_{j_1,\ldots, j_p}^{i_1,\ldots,i_q} + \lambda \beta_{j_1,\ldots, j_p}
 \newpage
 \subsection{Произведение тензоров. Базис пространства тензоров. Свертка тензоров.}
 
-\deff{def:} $\alpha \in T(p_1,q_1),\beta \in T(p_2,q_2)$. Тогда \deff{произведением} тензоров называется тензор $\gamma \in T(p_1+p_2,q_1+g_2):$ 
+\deff{def:} $\alpha \in T(p_1,q_1),\beta \in T(p_2,q_2)$. Тогда \deff{произведением} тензоров называется тензор $\gamma \in T(p_1+p_2,q_1+g_2):$
 $$\gamma^{i_1,\ldots i_{q_1},m_1,\ldots,m_{q_2}}_{j_1,\ldots,j_{p_1},k_1,\ldots, k_{p_2}}:= \alpha^{i_1\ldots i_q}_{j_1,\ldots,j_p} \beta^{m_1,\ldots,m_{q_2}}_{k_1,\ldots, k_{p_2}}$$
 Проверим корректность, то есть то что выполняется свойство тензора:
 $$\gamma_{\widetilde{j_1},\ldots,\widetilde{j}_{p_1}, \widetilde{k}_1,\ldots, \widetilde{k}_{p_2}}'^{\, \widetilde{i_1},\ldots,\widetilde{i}_{q_1}, \widetilde{m}_1,\ldots, \widetilde{m}_{q_2}} = \alpha_{\widetilde{j_1},\ldots,\widetilde{j}_{p_1}}'^{\, \widetilde{i_1},\ldots,\widetilde{i}_{q_1}} \cdot \beta_{ \widetilde{k}_1,\ldots, \widetilde{k}_{p_2}}'^{\,\widetilde{m}_1,\ldots, \widetilde{m}_{q_2}} = $$
@@ -491,7 +491,7 @@ $$\gamma^i_j =\alpha^i\beta_j \leftrightarrow \gamma = \begin{pmatrix}
 
 
 
-Возьмем $\alpha \in T(p_1,q_1) \leftrightarrow f: V^{p_1}\times(V^{q_1})^* \rightarrow K$. 
+Возьмем $\alpha \in T(p_1,q_1) \leftrightarrow f: V^{p_1}\times(V^{q_1})^* \rightarrow K$.
 
 Возьмем $\beta \in T(p_2,q_2) \leftrightarrow g: V^{p_2}\times(V^{q_2})^* \rightarrow K$.
 
@@ -530,7 +530,7 @@ $$=\xi_1^{j_1}\xi_2^{j_2}\ldots \xi_p^{j_p} \cdot \eta_{i_1}^1 \ldots \eta_{i_q}
 
 
      \uline{Покажем порождаемость:}
-    
+
     Пусть $f\in T(p,q): \forall \xi_1,\ldots \xi_p \in V, \forall \eta^1,\ldots \eta^q\in V^*:$
 
     Давайте найдем значение функции в этой точке:
@@ -540,9 +540,9 @@ $$=\xi_1^{j_1}\xi_2^{j_2}\ldots \xi_p^{j_p} \cdot \eta_{i_1}^1 \ldots \eta_{i_q}
     Что мы получили? Разложение в нашем базисе с коэффициентами: $\alpha_{j_1,\ldots,j_p}^{i_1,\ldots,i_q} $
 
     Откуда порождаемо.
-    
+
     \uline{Покажем линейную независимость:}
-    
+
     Для этого, как обычно, покажем единственность разложения нуля:
     $$\gamma = \alpha_{j_1,\ldots, j_p}^{i_1,\ldots,i_q}w^{j_1}\otimes\ldots\otimes w^{j_p}\otimes e_{i_1}\otimes \ldots \otimes e_{i_q}=\zero$$
     Давайте подставим какие-то базисные векторы:
@@ -645,14 +645,14 @@ $\beta = f^{\sigma_1^{-1}}\otimes \ldots \otimes f^{\sigma_p^{-1}} \otimes \gamm
 Для этого разобьем нашу $\sigma$ на транспозиции и будем транспонировать по ним по очереди:
 
 Для этого фиксируется набор верхних индексов,  и набор нижних индексов, за исключением двух нижних. Таким образом из многомерной матрицы тензора извлекается двумерная матрица, которая называется \deff{слой}.
-$$\alpha^{i_1\ldots i_q}_{j_1 \ldots * \ldots \Delta \ldots j_p}$$ 
-Здесь я фиксирую все $i$-шки, а $j$ все фиксированнны кроме $*$  и $\Delta$. Получили двумерную матрицу порядка $n$ - \deff{слой}. 
+$$\alpha^{i_1\ldots i_q}_{j_1 \ldots * \ldots \Delta \ldots j_p}$$
+Здесь я фиксирую все $i$-шки, а $j$ все фиксированнны кроме $*$  и $\Delta$. Получили двумерную матрицу порядка $n$ - \deff{слой}.
 $$(\alpha_{j_1\ldots * \ldots \Delta \ldots j_p}^{i_1 \ldots i_q})^T = \overline{\alpha}$$
 (просто обычная транспозицая квадратной двумерной матрицы).
 
 И после транспонирования слой $\overline{\alpha}$ размещается обратно в исходную матрицу на те же позиции. Таким образом, в тензоре будут произведена перестановка (транспозиция) двух индексов. Назовем такую операцию $\tau$.
 
-Тогда наша последовательность действий выглядит так: 
+Тогда наша последовательность действий выглядит так:
 $$\sigma \xrightarrow{\tau_1}\overline{\sigma}\xrightarrow{\tau_2}\ldots \xrightarrow{} (1,2,\ldots n)$$
 \textbf{Пример:}
 
@@ -735,9 +735,9 @@ $$\Leftrightarrow \forall (k,m): \alpha(\ldots, \xi_m, \ldots,\xi_k,\ldots) = -\
 
 \textbf{Замечание:} по верхним аналогичным.
 
-Позамечаем некоторые интересные факты 
+Позамечаем некоторые интересные факты
 \begin{enumerate}
-    \item $\Sim \alpha \in T(p,q), \Alt \alpha \in T(p,q) $ 
+    \item $\Sim \alpha \in T(p,q), \Alt \alpha \in T(p,q) $
     \item $\Sim, \Alt$ --- линейные операции, так как $\sigma$ - линейная операция.
     \item если $\alpha$ симметричный $\Rightarrow \Sim \alpha = \alpha$
     \item  если $\alpha$ кососимметричный $\Rightarrow \Alt \alpha = \alpha$
@@ -747,7 +747,7 @@ $$\Leftrightarrow \forall (k,m): \alpha(\ldots, \xi_m, \ldots,\xi_k,\ldots) = -\
 
 \thmm{Теорема.}
 
-$\alpha \in T(p,q), p \geq 2.$ 
+$\alpha \in T(p,q), p \geq 2.$
 
 $\forall \sigma: \Sim \sigma(\alpha) = \sigma(\Sim \alpha) = \Sim \alpha, \Alt(\sigma(\alpha)) = \sigma(\Alt\alpha) = (-1)^{\varepsilon(\sigma)}\Alt \alpha$
 
@@ -785,7 +785,7 @@ $$= \cfrac{1}{p!}\sum\limits_{\tau \in S_p}(-1)^{\varepsilon(\tau)}\sigma(\tau(\
 $$\Alt(\Sim \alpha) = \cfrac{1}{p!}\sum\limits_{\sigma \in S_p}(-1)^{\varepsilon(\sigma)}\sigma(\Sim \alpha) = \cfrac{\Sim \alpha}{p!}\sum\limits_{\sigma \in S_p}(-1)^{\varepsilon(\sigma)} = \zero$$
 $$\Sim (\Alt \alpha) = \cfrac{1}{p!}\sum\limits_{\sigma \in S_p}\sigma(\Alt(\alpha)) = \Alt\alpha \cdot \cfrac{1}{p!}\sum\limits_{\sigma \in S_p} (-1)^{\sigma(\varepsilon)} =\zero$$
 
-$\sum\limits_{\sigma \in S_p} (-1)^{\sigma(\varepsilon)} = 0$,  
+$\sum\limits_{\sigma \in S_p} (-1)^{\sigma(\varepsilon)} = 0$,
 
 \hfill Q.E.D.
 
@@ -801,7 +801,7 @@ $\sum\limits_{\sigma \in S_p} (-1)^{\sigma(\varepsilon)} = 0$,
 
 \deff{def:} $f \in T(p,0)$ --- ковариантный тензор валентности $p$ --- \deff{полилинейная форма}.
 
-$f \in T(p,0)$ и \deff{полилинейная антисимметричная} форма = ковар. тензор валентности $p$ и кососимметричный. В таком случае $f$ называется \deff{$p$-формой}, или \deff{внешней формой}, или внешней формой порядка $p$. 
+$f \in T(p,0)$ и \deff{полилинейная антисимметричная} форма = ковар. тензор валентности $p$ и кососимметричный. В таком случае $f$ называется \deff{$p$-формой}, или \deff{внешней формой}, или внешней формой порядка $p$.
 
 $\Lambda^pV^* = \{f \in T(p,0): \Alt f = f\}$ --- линейное подпространство тензоров --- \deff{линейное пространство} $p$-форм.
 
@@ -823,7 +823,7 @@ $$f^1 \wedge f^2 = \cfrac{(p_1+p_2)!}{p_1!p_2!}\Alt (f^1\otimes f^2)$$
 
 \begin{enumerate}
     \item $f^1\wedge f^2 = (-1)^{p_1 \cdot p_2} \cdot  f^2 \wedge f^1$
-    
+
     \textbf{Доказательство:}
     $$f^1 \wedge f^2 = \cfrac{(p_1 + p_2)!}{p_1!p_2!} (\Alt f^1 \otimes f^2)$$
     Заметим, что тогда должно быть выполнено:
@@ -841,9 +841,9 @@ $$f^1 \wedge f^2 = \cfrac{(p_1+p_2)!}{p_1!p_2!}\Alt (f^1\otimes f^2)$$
 
     \hfill Q.E.D.
 
-    В частности, $f^1\in V^*,f^2\in V^*$, то $f^1 \wedge f^2 = -f^2 \wedge f^1$. Так же $f \wedge f = \zero$. 
+    В частности, $f^1\in V^*,f^2\in V^*$, то $f^1 \wedge f^2 = -f^2 \wedge f^1$. Так же $f \wedge f = \zero$.
 
-    Отсюда выводится свойство, что $w^i \wedge w^j = - w^j \wedge w^i$ и $w^i \wedge w^i = \zero$. 
+    Отсюда выводится свойство, что $w^i \wedge w^j = - w^j \wedge w^i$ и $w^i \wedge w^i = \zero$.
 
     \item $(f^1+f^2)\wedge f^3 = f^1\wedge f^3 + f^2 \wedge f^3$ и $f^1 \wedge (f^2 + f^3) = f^1 \wedge f^2 + f^1 \wedge f^3$
     \item $\forall \lambda \in K: (\lambda f^1)\wedge f^2 = \lambda(f^1 \wedge f^2) = f^1 \wedge (\lambda f^2)$
@@ -861,7 +861,7 @@ $$f^1 \wedge f^2 = \cfrac{(p_1+p_2)!}{p_1!p_2!}\Alt (f^1\otimes f^2)$$
     Ну, давайте докажем:
     $$\Alt(\Alt(f^1 \otimes f^2)\otimes f^3) = \Alt \left(\cfrac{1}{(p_1+p_2)!} \sum\limits_{\sigma \in S_{p_1+p_2}}\left((-1)^{\varepsilon(\sigma)}\sigma(f^1\otimes f^2)\otimes f^3\right)\right) $$
     $$f^1 \otimes f^2 \leftrightarrow \alpha_{i_1\ldots i_{p_1}}\beta_{j_1\ldots j_{p_2}} \quad f^3 \leftrightarrow \gamma_{\theta_1\ldots \theta_{p_3}}$$
-    
+
     Заметим, что $\sigma $ это перестановка, которая переставляет $p_1 + p_2$ индексов.
 
     Возьму $\tau$ такую перестановку, что она переставляет $(p_1+p_2+p_3)$ индексов $i_1,,\ldots, i_{p_1},j_1,\ldots, j_{p_2},\theta_1,\ldots,\theta_{p_3}$, но при этом последние $p$ индексов будут стоять на месте(Расширим нашу перестановку $\sigma$).
@@ -880,7 +880,7 @@ $$f^1 \wedge f^2 = \cfrac{(p_1+p_2)!}{p_1!p_2!}\Alt (f^1\otimes f^2)$$
     Это следует из нашего свойства и поэтому у нас именно такое обозначение $p$-форм (у нас как бы значок $\wedge$)
 
     \item $\forall j=1\ldots p : f^j \in V^*= \Lambda^1V^*$.
-    
+
     Тогда $$\sigma(f^1 \wedge f^2 \wedge \ldots\wedge  f^p) = (-1)^{\varepsilon(\sigma)}f^1\wedge \ldots \wedge f^p = \sigma^{-1}(f^1\wedge \ldots \wedge f^n) = f^{\sigma_1}\wedge \ldots \wedge f^{\sigma_p}$$
 
     \textbf{Доказательство:}
@@ -905,7 +905,7 @@ $\{w^{j_1}\wedge \ldots \wedge w^{j_p}\}$ совокупность по всем
 
 $\forall f \in \Lambda^p V^*$. $f\in T(p,0)$ и $f = \Alt f$ - кососимметричный. Разложим по координатам тензора
 $$f= \alpha_{i_1\ldots i_p} w^{i_1}\otimes \ldots \otimes w^{i_p}$$
-С другой стороны $\Alt f = \Alt (\alpha_{i_1\ldots i_p}w^{i_1}\otimes  \ldots \otimes w^{i_p}) = a_{i_1\ldots i_p}\Alt (w^{i_1}\otimes \ldots \otimes w^{i_p})$. Из следствия 2 свойства 5 $\Alt (w^{i_1}\otimes \ldots \otimes w^{i_p}) = \cfrac{1}{p!}w^{i_1}\wedge \ldots \wedge w^{i_p}$. 
+С другой стороны $\Alt f = \Alt (\alpha_{i_1\ldots i_p}w^{i_1}\otimes  \ldots \otimes w^{i_p}) = a_{i_1\ldots i_p}\Alt (w^{i_1}\otimes \ldots \otimes w^{i_p})$. Из следствия 2 свойства 5 $\Alt (w^{i_1}\otimes \ldots \otimes w^{i_p}) = \cfrac{1}{p!}w^{i_1}\wedge \ldots \wedge w^{i_p}$.
 
 Если среди $(i_1\ldots i_p)$ есть одинаковые индексы, то $w^{i_1} \wedge \ldots \wedge w^{i_p} = \zero$. Если все индексы различные, то это просто перестановка $(j_1,\ldots,j_p): j_1<\ldots <j_p$. Тогда заменим на равное:
 $$=\sum_{j_1<\ldots<j_p}\cfrac{1}{p!}\sum\limits_{\sigma \in S_p} \alpha_{j_{\sigma_1}\ldots j_{\sigma_p}} w^{j_{\sigma_1}}\wedge \ldots \wedge w^{j_{\sigma_p}} = \sum_{j_1<\ldots<j_p}\cfrac{1}{p!}\sum\limits_{\sigma \in S_p} \alpha_{j_{\sigma_1}\ldots j_{\sigma_p}} (-1)^{\varepsilon(\sigma)}w^{j_1}\wedge \ldots w^{j^p}$$
@@ -913,12 +913,12 @@ $$=\sum_{j_1<\ldots<j_p}\cfrac{1}{p!}\sum\limits_{\sigma \in S_p} \alpha_{j_{\si
 $$=\sum_{j_1<\ldots<j_p}\left(\cfrac{1}{p!}\sum\limits_{\sigma \in S_p}\alpha_{j_{\sigma_1}\ldots j_{\sigma_p}}(-1)^{\varepsilon(\sigma)}\right)w^{j_1}\wedge \ldots \wedge w^{j_p}$$
 Откуда порождаемый.
 
-\textbf{Замечание:} коээффицент перед омегами равен $\beta_{j_1\ldots j_p}$ b называется \deff{существенной} координатой $p$-формы $f$.  Она равна $\alpha_{[j_1\ldots j_p]}=\beta_{j_1\ldots j_p}$. 
+\textbf{Замечание:} коээффицент перед омегами равен $\beta_{j_1\ldots j_p}$ b называется \deff{существенной} координатой $p$-формы $f$.  Она равна $\alpha_{[j_1\ldots j_p]}=\beta_{j_1\ldots j_p}$.
 
 \deff{Докажем линейно-независимость:}
 
-Для этого составим комбинацию. 
-$$\zero=\sum\limits_{j_1 <\ldots j_p}\beta_{j_1\ldots j_p} w^{j_1}\wedge \ldots \wedge w^{j_P}= 
+Для этого составим комбинацию.
+$$\zero=\sum\limits_{j_1 <\ldots j_p}\beta_{j_1\ldots j_p} w^{j_1}\wedge \ldots \wedge w^{j_P}=
 \sum\limits_{j_1 < \ldots <j_p} \beta_{j_1\ldots j_p}\sum_{\sigma \in S_p} w^{j_{\sigma_1}}\otimes\ldots\otimes w^{j_{\sigma(p)}} \cdot (-1)^{\varepsilon(\sigma)} = $$
 $$= \alpha_{i_1\ldots i_p} w^{i_1}\otimes \ldots \otimes w^{i_p}$$
 где если хотя бы 2 индекса совпадают,то $\alpha_{i_1\ldots i_p} = 0$. Получили, что базис из тензоров = нулю, откуда и искомые.
@@ -929,7 +929,7 @@ $$= \alpha_{i_1\ldots i_p} w^{i_1}\otimes \ldots \otimes w^{i_p}$$
 
 \textbf{Следствие 2:} $\forall f \in \Lambda^p V^*:$
 $$f = \sum\limits_{j_1<\ldots <j_p} \beta_{j_1\ldots j_p}w^{j_1}\wedge \ldots \wedge w^{j_p}$$
-где $\beta_{j_1\ldots j_p} = \alpha_{j_1\ldots j_p}$--- 
+где $\beta_{j_1\ldots j_p} = \alpha_{j_1\ldots j_p}$---
 \deff{существенные} координаты ($\alpha$ в данном случае берется из матричного представления тензора $f$).
 
 
@@ -961,7 +961,7 @@ $$f(\xi_1, \ldots,\xi_p)=\sum\limits_{j_1<\ldots<j_p}\beta_{j_1\ldots j_p} \begi
 \xi_1^{j_1}&\ldots& \xi_p^{j_1}\\
 \vdots & & \vdots \\
 \xi_1^{j_p} & \ldots & \xi_p^{j_p}
-\end{vmatrix}$$ 
+\end{vmatrix}$$
 
 \thmm{Теорема 2.}
 
@@ -969,17 +969,17 @@ $\forall j = 1\ldots p. f^j \in V^* = \Lambda^1V^*$ - 1 форма.
 
 $f= f^1 \wedge f^2 \wedge \ldots \wedge f^p$ - $p$ - форма.
 
-$f^j \leftrightarrow a^j = (a_1^j \ldots a_n^j)$ --- координатная строка в базисе $w^j$. $f^j= a_i^j w^i$. Тогда 
+$f^j \leftrightarrow a^j = (a_1^j \ldots a_n^j)$ --- координатная строка в базисе $w^j$. $f^j= a_i^j w^i$. Тогда
 $$\beta_{j_1\ldots j_p}= \begin{vmatrix}
     a_{j_1}^1 & \ldots & a_{j_p}^{1}\\
     \vdots & & \vdots \\
     a_{j_1}^p & \ldots & a_{j_p}^p
 \end{vmatrix} = \det (a_{j_k}^m)$$
-А также: 
+А также:
 $$f^1 \wedge \ldots \wedge f^p = \sum\limits_{j_1 < \ldots < j_p}\begin{vmatrix}
     a_{j_1}^1 & \ldots & a_{j_p}^1 \\
     \vdots & & \vdots \\
-    a^p_{j_1} & \ldots & a_{j_p}^p 
+    a^p_{j_1} & \ldots & a_{j_p}^p
 \end{vmatrix} w^{j_1}\wedge \ldots \wedge w^{j_p}$$
 \textbf{Доказательство:}
 $$\beta_{j_1\ldots j_p}= f^1\wedge \ldots \wedge f^p (e_{j_1},\ldots, e_{j_p})=$$
@@ -1008,7 +1008,7 @@ $\forall j = 1\ldots p$, $f^j$ - 1-формы. $\forall \xi_1,\ldots,\xi_p \in V
 $$f^1\wedge f^2 \wedge \ldots \wedge f^p(\xi_1,\ldots \xi_p) = \begin{vmatrix}
     f^1(\xi_1) & \ldots & f^1(\xi_p)\\
     \vdots & &\vdots \\
-    f^p(\xi_1) &\ldots & f^p(\xi_p) 
+    f^p(\xi_1) &\ldots & f^p(\xi_p)
 \end{vmatrix} = \det (f^j(\xi_i))$$
 \textbf{Доказательство:}
 
@@ -1024,12 +1024,12 @@ f^p(\xi_1) & \ldots & f^p(\xi_p)
 \end{vmatrix} = \sum\limits_{j_1 < \ldots j_p} \begin{vmatrix}
     a_{j_1}^1 & \ldots & a^1_{j_p}\\
     \vdots & & \vdots \\
-    a_{j_1}^p & \ldots & a_{j_{p}}^p 
+    a_{j_1}^p & \ldots & a_{j_{p}}^p
 \end{vmatrix} \begin{vmatrix}
     \xi^{j_1}_{1} & \ldots & \xi_{p}^{j_1} \\
     \vdots & & \vdots \\
     \xi_{1}^{j_p} & \ldots & \xi_{p}^{j_p}
-\end{vmatrix}$ 
+\end{vmatrix}$
 
 % todo: кучерук тут что-то говорила про умножение матриц
 
@@ -1057,4 +1057,4 @@ $$\xi_1 \vee \ldots \vee \xi_p(f^1,\ldots, f^p) = \sum\limits_{j_1<\ldots<j_p} \
     \vdots & & \vdots \\
     a_{j_1}^p & \ldots & a^p_{j_p}
 \end{vmatrix} = f^1 \wedge \ldots \wedge f^p(\xi_1,\ldots \xi_p) =$$
-$$= \det (f^j(\xi_i))=\det (\xi_i(f^j))$$ 
+$$= \det (f^j(\xi_i))=\det (\xi_i(f^j))$$

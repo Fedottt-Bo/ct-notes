@@ -2,7 +2,7 @@
 
 \deff{def:} $U,V$ - линейные пространства над одним полем $K(\mathbb{R}, \mathbb{C})$.
 
-$\mathcal{A}: U\rightarrow V$ называется \deff{линейным гомоморфизмом}, если: 
+$\mathcal{A}: U\rightarrow V$ называется \deff{линейным гомоморфизмом}, если:
 $$\forall \lambda \in K,\forall u_1, u_2 \in U: \mathcal{A}(u_1 + \lambda u_2) = \mathcal{A} (u_1) + \lambda\mathcal{A}(u_2)$$
 
 \textbf{Замечание 1:} Мы будем писать $\mathcal{A} u$, вместо $\mathcal{A}(u)$.
@@ -13,7 +13,7 @@ $$\forall \lambda \in K,\forall u_1, u_2 \in U: \mathcal{A}(u_1 + \lambda u_2) =
 
 \textbf{Примеры:}
 \begin{enumerate}
-    \item $\zero$: это нулевое отображения $\forall u \in U: \zero u = 0$ 
+    \item $\zero$: это нулевое отображения $\forall u \in U: \zero u = 0$
 
      \item $P_n$ - пространство многочленов степени $\leq n$. $\mathcal{A}=\cfrac{d}{dx}$ --- дифференцирование.
 
@@ -25,13 +25,13 @@ $$\forall \lambda \in K,\forall u_1, u_2 \in U: \mathcal{A}(u_1 + \lambda u_2) =
 \begin{enumerate}
     \item $\lambda \in K: \mathcal{A}$ --- линейное отображение. Введем операцию умножения:
 $$\ \forall u \in U: (\lambda\mathcal{A}) u = \lambda(\mathcal{A} u)$$
-    \item $\mathcal{A}, \mathcal{B}$ --- линейные отображение. Введем операцию сложения: 
+    \item $\mathcal{A}, \mathcal{B}$ --- линейные отображение. Введем операцию сложения:
     $$ \forall u \in U:(\mathcal{A} + \mathcal{B}) u = \mathcal{A}u + \mathcal{B}u $$
-    
+
 
     \item  $\mathcal{B}\in L(U,W)$, $\mathcal{A} \in L(W,V)$. Введем операцию произведения:
     $$\forall u \in U:(\mathcal{A} \cdot \mathcal{B}) u = \mathcal{A}(\mathcal{B}u)$$
-    
+
 \end{enumerate}
 
 
@@ -42,7 +42,7 @@ $$\ \forall u \in U: (\lambda\mathcal{A}) u = \lambda(\mathcal{A} u)$$
 $\ker  \mathcal{A} = \{u \in U| \mathcal{A} u = \zero\}$ %
 --- \deff{ядро линейного отображения}.
 
- $\rg \mathcal{A} = \dim \Im \mathcal{A}$ --- \deff{ранг отображения} 
+ $\rg \mathcal{A} = \dim \Im \mathcal{A}$ --- \deff{ранг отображения}
 
  $def \mathcal{A} = \dim \ker \mathcal{A}$ --- \deff{дефект отображения.}
 
@@ -65,7 +65,7 @@ $\ker  \mathcal{A} = \{u \in U| \mathcal{A} u = \zero\}$ %
 
     $\mathcal{A} \in End(V) = End_K(v)$ %
     \item \emph{автоморфизм} это биекция + эндоморфизм.
-    
+
      $\mathcal{A} \in Aut(V) = Aut_K(v)$ %
 \end{itemize}
 
@@ -87,7 +87,7 @@ $\ker  \mathcal{A} = \{u \in U| \mathcal{A} u = \zero\}$ %
     \begin{itemize}
         \item[1.] сюръекция $\Leftrightarrow \rg \mathcal{A} = \dim V  = m$.
 
-        $\ker \mathcal{A} = \{x \in K^n: Ax = \zero\}$ --- общее решение СЛОУ, 
+        $\ker \mathcal{A} = \{x \in K^n: Ax = \zero\}$ --- общее решение СЛОУ,
         \emph{ядро матрицы}.
 
         $\dim \ker \mathcal{A} = \dim $ общего решения $= n - \rg A$.
@@ -105,8 +105,8 @@ $\ker  \mathcal{A} = \{u \in U| \mathcal{A} u = \zero\}$ %
 
         \item[5.] автоморфизм $\Leftrightarrow rg \mathcal{A} = n, A_{n\times n }\Leftrightarrow \exists A^{-1}$.
     \end{itemize}
-    
-   
+
+
 \end{enumerate}
 
 
@@ -122,7 +122,7 @@ $\ker  \mathcal{A} = \{u \in U| \mathcal{A} u = \zero\}$ %
 
     \textbf{Замечание 1.} Если $\mathcal{A} \in L(U,V)$ --- изоморфно $\Rightarrow \mathcal{A}^{-1}$ --- взаимно обр. отображение.
 
-\textbf{Замечание 2.} Если $\mathcal{A} \in End(V)$, а также изоморфизм $\Leftrightarrow$ $\mathcal{A} \in Aut(V) \Leftrightarrow$ $\mathcal{A}^{-1}\in End(V)$ --- обратный лин. оператор к $\mathcal{A}$.  
+\textbf{Замечание 2.} Если $\mathcal{A} \in End(V)$, а также изоморфизм $\Leftrightarrow$ $\mathcal{A} \in Aut(V) \Leftrightarrow$ $\mathcal{A}^{-1}\in End(V)$ --- обратный лин. оператор к $\mathcal{A}$.
 
 \deff{def:} $U_0 \subset U$ - линейное подпространство. $\mathcal{A} \in L(U,V)$
 
@@ -168,7 +168,7 @@ $u \in U  \xleftrightarrow{\text{ изоморфизм}} u = \begin{pmatrix}
 \end{pmatrix} \in K^n$;
 $v\in V  \xleftrightarrow{\text{ изоморфизм}} v = \begin{pmatrix}
     v_1\\v_2\\\vdots\\v_m
-\end{pmatrix} \in K^m$ 
+\end{pmatrix} \in K^m$
 
 
 $$\forall u \in U,  v = \mathcal{A}u, :v = \mathcal{A}(\sum\limits_{i=1}^n x_i \xi_i) = \sum\limits_{i=1}^nx_i \mathcal{A} \xi_i$$
@@ -191,7 +191,7 @@ $$A \xi_i  = \sum\limits_{j=1}^ma_{ji}\eta_j \xleftrightarrow{\text{коорд. 
 
 
 \textbf{Замечание.} Т.к. здесь координатный изоморфизм, то:
-$$rg \mathcal{A} = rg(\mathcal{A} \xi_1,\ldots, \mathcal{A} \xi_n) = rg(A_1,\ldots, A_n) = rg A .$$ 
+$$rg \mathcal{A} = rg(\mathcal{A} \xi_1,\ldots, \mathcal{A} \xi_n) = rg(A_1,\ldots, A_n) = rg A .$$
 
 \deff{def:} $\mathcal{A} \in End(V): \mathcal{A}: V\rightarrow V$ --- \deff{лин. оператор}.
 
@@ -223,7 +223,7 @@ $$\mathcal{A} \mathcal{B} \xi_i = \mathcal{A} (\mathcal{B}\xi_i) = \mathcal{A}(\
 
 \hfill Q.E.D.
 
-\textbf{Следствие:} $\mathcal{A} \in L(U,V)$ - изоморфизм, $A$ - матр в $\xi,\eta \Rightarrow A^{-1}$ - матр в $(\eta, \xi)$. 
+\textbf{Следствие:} $\mathcal{A} \in L(U,V)$ - изоморфизм, $A$ - матр в $\xi,\eta \Rightarrow A^{-1}$ - матр в $(\eta, \xi)$.
 
 \textbf{Доказательство:}
 $$A \cdot A^{-1} = \varepsilon_V, \quad A^{-1} \cdot A = \varepsilon_U$$
@@ -248,7 +248,7 @@ $$v = \mathcal{A}u = \sum\limits_{i=1}^n \mathbf{u}_i \mathcal{A} \xi_i = \sum\l
 
 \hfill Q.E.D.
 
-\thmm{Теорема (формула замены матрицы лин. отобр. при замене базиса)} 
+\thmm{Теорема (формула замены матрицы лин. отобр. при замене базиса)}
 
 $\mathcal{A} \in L(U,V)$ --- линейное отображение.
 
@@ -264,7 +264,7 @@ $$A' = T^{-1}_{\eta \rightarrow \eta'} A T_{\xi\rightarrow \xi'}$$
     $$\mathcal{A}'=\mathcal{C}\mathcal{A}\mathcal{B}$$
 
     Заметим, что матрица $\mathcal{B}$, это матрица перехода из $\xi$ в $\xi'$. Это так потому что у нас просто меняется базис (про саму матрицу перехода см. одноименный раздел). Матрица $\mathcal{C}$, это $T_{\eta' \rightarrow \eta}$. Откуда, исходя из двух утверждений сверху:
-    $$A' = T_{\eta' \rightarrow \eta} A T_{\xi\rightarrow \xi'}\Rightarrow A' = T^{-1}_{\eta \rightarrow \eta'} A T_{\xi\rightarrow \xi'}$$ 
+    $$A' = T_{\eta' \rightarrow \eta} A T_{\xi\rightarrow \xi'}\Rightarrow A' = T^{-1}_{\eta \rightarrow \eta'} A T_{\xi\rightarrow \xi'}$$
 
 \hfill Q.E.D.
 %todo
@@ -283,9 +283,9 @@ $\mathcal{A}$ - линейное отображение. Ранг и дефек�
 
 Пусть $\mathcal{A} \in End(V)$. Пусть $e_1,\ldots, e_n$ базис $v$.
 
-Как мы знаем, $\exists! D$ n-форма, такая что $D(e_1,\ldots e_n) = 1$. Тогда 
+Как мы знаем, $\exists! D$ n-форма, такая что $D(e_1,\ldots e_n) = 1$. Тогда
 \deff{определитель} \deff{линейного оператора}:
-$$\det \mathcal{A} := det(\mathcal{A}e_1,\ldots,\mathcal{A}e_n) = D(\mathcal{A}e_1,\ldots ,\mathcal{A}e_n)$$ 
+$$\det \mathcal{A} := det(\mathcal{A}e_1,\ldots,\mathcal{A}e_n) = D(\mathcal{A}e_1,\ldots ,\mathcal{A}e_n)$$
 \textbf{Замечание:} $\det \mathcal{A} = D(\mathcal{A}e_1,\ldots ,\mathcal{A}e_n) = D({A}e_1,\ldots ,{A}e_n) = \det A$ --- определение определителя линейного оператора и матрицы соотносятся.
 
 \thmm{Теорема:}
@@ -301,7 +301,7 @@ $$= \sum\limits_{\sigma \in S_n}  a_{i_11}\cdot\ldots\cdot a_{i_nn} \cdot (-1)^{
 
 \hfill Q.E.D.
 
-\textbf{Замечание:} $A$ и $B$ подобные матрицы, то $\det A = \det B$. 
+\textbf{Замечание:} $A$ и $B$ подобные матрицы, то $\det A = \det B$.
 
 \textbf{Замечание:} $\det \mathcal{A}$ \uline{инвариант} линейного оператора, он не зависит от базиса.
 
@@ -368,7 +368,7 @@ $$tr B = \sum\limits_{i=1}^n b_{ii} = \sum\limits_{i=1}^n \sum\limits_{j=1}^ns_{
 Заметим, что $(CS)_{kj} = \delta_{kj}$, где $\delta_{kj}=\begin{cases}
     1, k=j\\
     0, k\neq j
-\end{cases}$. Так что получаем, что 
+\end{cases}$. Так что получаем, что
 $$tr B = \sum\limits_{i=1}^n a_{ii} = tr A$$
 \hfill Q.E.D.
 
@@ -401,7 +401,7 @@ $$\forall e_i\in L:\mathcal{A}e_i \in L  \Rightarrow \mathcal{A}e_i = \sum\limit
     a_{ki}\\
     0\\
     \vdots\\0
-\end{pmatrix}$$ 
+\end{pmatrix}$$
 Откуда $A = \begin{pmatrix}
     a_{11}&\ldots&a_{1k} & * & \ldots & *\\
     \vdots&\ddots & \vdots &\vdots& \vdots & \vdots\\
@@ -419,7 +419,7 @@ $$\forall e_i\in L:\mathcal{A}e_i \in L  \Rightarrow \mathcal{A}e_i = \sum\limit
 \thmm{Теорема 2:}
 
 $V = \bigoplus\limits_{i=1}^m L_i$, $L_i$ инвариантны отн. $\mathcal{A}$.
-$\Rightarrow \exists$ базис пр-ва $V$, такое что м-ца оператора $\mathcal{A}$ будет иметь блочно-диагональный вид: 
+$\Rightarrow \exists$ базис пр-ва $V$, такое что м-ца оператора $\mathcal{A}$ будет иметь блочно-диагональный вид:
 $$
 \begin{pmatrix}
     A^1 &\ldots&\ldots& \zero\\
@@ -508,7 +508,7 @@ t_1\cdot \ldots \cdot t_n = \det A
 \lambda_1\cdot \ldots \cdot \lambda_n = \det A
 \end{cases}$
 
-\deff{def:} \deff{Спектром} оператора $\mathcal{A}$ называется множество $\{ (\lambda$, $\alpha(\lambda)) \}$, 
+\deff{def:} \deff{Спектром} оператора $\mathcal{A}$ называется множество $\{ (\lambda$, $\alpha(\lambda)) \}$,
 $\alpha(\lambda)$ - кратность $\lambda$ лин. оператора в хар. уравнении (\emph{алгебраическая кратность}). Спектр это множество пар.
 
 \deff{def:} \deff{Простой спектр} --- все кратности -  единички.
@@ -541,8 +541,8 @@ $$\chi(t) = \det(A-tE) =\begin{vmatrix}
     A^1-tE_{\gamma\times\gamma} & *\\
     \zero & A^2 -tE_{(n-\gamma)\times(n-\gamma))}
     \end{vmatrix} \overset{\text{по 6-ому св-ву опр}}=$$
-    
-    
+
+
     $$= |A^1-tE||A^2-tE|=\chi_{A^1}(t)\cdot \chi_{A^2}(t)=(\lambda-t)^\gamma\chi_{A_2}(t) \Rightarrow$$
     $ \Rightarrow \lambda $ корень $\chi(t)$, причем кратность $\geq \gamma$, т.к $\lambda$ может оказаться корнем $\chi_{A^2}$
 
@@ -563,7 +563,7 @@ $\Rightarrow v_1,\ldots,v_n$ --- лин. независимы.
 
 \textbf{ИП}: Пусть верно для $m$, докажем для $m+1$:
 
-\uline{От противного:} Пусть $\lambda_1,\ldots,\lambda_m,\lambda_{m+1}$ попарно различные собственные числа. 
+\uline{От противного:} Пусть $\lambda_1,\ldots,\lambda_m,\lambda_{m+1}$ попарно различные собственные числа.
 
 $v_1,\ldots,v_m$ - линейно независимы по ИП. $v_1,\ldots,v_m,v_{m+1}$ - линейно зависимы. Откуда: $v_{m+1}=\sum\limits_{i=1}^m \alpha_i v_i$. С одной стороны:
 $$\mathcal{A} v_{m+1} = \lambda_{m+1} v_{m+1} = \lambda_{m+1}\sum\limits_{i=1}^m\alpha_iv_i$$
@@ -574,7 +574,7 @@ $$\sum\limits_{i=1}^m(\lambda_{m+1}-\lambda_i)a_i v_i = 0$$
 % у меня в конспекте такое доказательство с лекции, которое показалось понятнее:
 % все v_i не нули, все разности лямбд тоже не нули
 % тогда все альфы нули, но тогда v_{m + 1} = 0, противоречие
-Но мы знаем, что $v_1,\ldots,v_m$ линейно независимы. Откуда эта линейная комбинация тривиальна, но с другой стороны, она такой быть не может, потому что $\exists \alpha_i\neq 0$, для которого $v_i$ не равен нулю, а так же, исходя из того что искомые с.ч. попарно различны, то $\lambda_{m+1}-\lambda_i\neq 0$. Откуда комбинация нетривиальна. 
+Но мы знаем, что $v_1,\ldots,v_m$ линейно независимы. Откуда эта линейная комбинация тривиальна, но с другой стороны, она такой быть не может, потому что $\exists \alpha_i\neq 0$, для которого $v_i$ не равен нулю, а так же, исходя из того что искомые с.ч. попарно различны, то $\lambda_{m+1}-\lambda_i\neq 0$. Откуда комбинация нетривиальна.
 
 Противоречие.
 
@@ -646,19 +646,19 @@ $A$ подобна диагональной $\Leftrightarrow$ матрица о.
 
 \begin{itemize}
     \item  \fbox{\(\Rightarrow\)}
-    
+
     Пусть $A$ - диагонализируемая $\Leftrightarrow$ подобна диагональной $\Leftrightarrow$ $\exists$ невырожд T: $T^{-1}AT=\Lambda=diag(\lambda_1,\ldots,\lambda_n)$. $V$ - линейное пространство над полем $K$. $e = (e_1,\ldots,e_n)$ - базис V.
 
-    Пусть $A$ - матрица в базисе $e$. Тогда $Ae_j = \sum\limits_{i=1}^na_{ij}e_i$.$v =(v_1,\ldots,v_n)$ - базис.\\Откуда $v_1,\ldots,v_n = (e_1,\ldots,e_n)T_{e\rightarrow v} \Rightarrow \mathcal{A}\xleftrightarrow{v} A' = T^{-1}AT=\Lambda$ 
+    Пусть $A$ - матрица в базисе $e$. Тогда $Ae_j = \sum\limits_{i=1}^na_{ij}e_i$.$v =(v_1,\ldots,v_n)$ - базис.\\Откуда $v_1,\ldots,v_n = (e_1,\ldots,e_n)T_{e\rightarrow v} \Rightarrow \mathcal{A}\xleftrightarrow{v} A' = T^{-1}AT=\Lambda$
     \item \fbox{\(\Leftarrow\)}
     $\mathcal{A}$ о.п.с, $A$ - матрица в некотором базисе $e= (e_1,\ldots,e_n)$.
     Возьму $v_1, ..., v_n$ - базис V, где $v_i$ - собственный вектор $\mathcal{A}$. Заметим, что так как $\mathcal{A}$ о.п.с, то такой базис существует
 
-   Теперь давайте возьмем матрицу перехода из $T_{e\rightarrow v}$. Тогда $\mathcal{A}\xleftrightarrow{v} A' = T^{-1}AT=\Lambda \Rightarrow A$ подобна диагональной   
+   Теперь давайте возьмем матрицу перехода из $T_{e\rightarrow v}$. Тогда $\mathcal{A}\xleftrightarrow{v} A' = T^{-1}AT=\Lambda \Rightarrow A$ подобна диагональной
 
     \hfill Q.E.D.
 \end{itemize}
-   
+
 \textbf{Алгоритм поиска диагонального представления матрицы подобной диагональной:}
 \begin{enumerate}
     \item найти спектр: если все корни $\chi \in K $, переходим к п2.
@@ -672,7 +672,7 @@ $A$ подобна диагональной $\Leftrightarrow$ матрица о.
 
 
 
-\deff{def:} $V = \bigoplus\limits_{i=1}^mL_i$. По теореме об равносильных условиях прямой суммы: 
+\deff{def:} $V = \bigoplus\limits_{i=1}^mL_i$. По теореме об равносильных условиях прямой суммы:
 \\$\forall v\in V: \exists! v = \sum\limits_{i=1}^mv_i, \text{где } v_i \in L_i$. Возьму $P_i \in  End(V)$,  такие, что $P_i \cdot v = v_i \in L_i$.\\ Тогда такие $P_i$ назовем \deff{операторами проектирования} на подпр-во $L_i$.
 
 
@@ -689,14 +689,14 @@ $A$ подобна диагональной $\Leftrightarrow$ матрица о.
 
 Они все тривиальны
 
-\textbf{Утверждение.} Возьму множество операторов: $\{P_i\}_{i=1}^m$, $P_i \in End(V)$. 
+\textbf{Утверждение.} Возьму множество операторов: $\{P_i\}_{i=1}^m$, $P_i \in End(V)$.
 
 Пусть они удовлетворяют свойствам 2,3 $\Rightarrow V  = \bigoplus\limits_{i=1}^m\Im P_i$. $P_i$ это проектор на $L_i$.
 
 \textbf{Доказательство:}
 
 Мы знаем, что $P_i P_j = \zero$, для $i \neq j$, а также $\sum\limits_{j=1}^m P_i = \varepsilon$. Откуда получаем, что:
-$$ P_i = P_i \varepsilon = P_i\sum\limits_{j=1}^m P_j = \sum\limits_{j=1}^m P_j P_i = P_i^2$$ 
+$$ P_i = P_i \varepsilon = P_i\sum\limits_{j=1}^m P_j = \sum\limits_{j=1}^m P_j P_i = P_i^2$$
 А это значит, что $\forall v \in V: v = \varepsilon v = \sum\limits_{i=1}^m P_iv \Rightarrow V = \sum\limits_{i=1}^m\Im P_i$.
 
 Осталось показать единственность разложения нуля:
@@ -752,11 +752,11 @@ $A$ диагонализируема $\Leftrightarrow$ $\exists! \{P_i\}_{i=1}^m
 и $\sum\limits_{i=1}^m P_i=E$,
 $A = \sum\limits_{i=1}^m\lambda_iP_i$
 
-\textbf{Доказательство:} 
+\textbf{Доказательство:}
 
-Очевидно следует из теоремы: 
+Очевидно следует из теоремы:
 
-$A$ диагонализируема $\iff$ матрица $\mathcal{A}$ о.п.с. Либо можно считать  $A=\mathcal{A}$ о.п.с. 	$\in End (K^n)$
+$A$ диагонализируема $\iff$ матрица $\mathcal{A}$ о.п.с. Либо можно считать  $A=\mathcal{A}$ о.п.с.   $\in End (K^n)$
 
   \hfill Q.E.D.
 
@@ -791,7 +791,7 @@ $$\lim\limits_{k\rightarrow \infty}\left(
 
 А саму такую конструкцию понятно называют рядом. Теперь давайте немного притронемся к матану:
 
-$\sum\limits_{m=0}^\infty c_mx^m$ - \deff{ряды Тейлора - Маклорена}. 
+$\sum\limits_{m=0}^\infty c_mx^m$ - \deff{ряды Тейлора - Маклорена}.
 
 $x\in \mathbb{R}(\mathbb{C})$ --- их область определения, $|x| < R$ (или еще обозначается r) --- \deff{радиус сходимости}, $c_m \in \mathbb{R}(\mathbb{C})$. Причем эти $c$-шки на самом деле производные. (если интересно см. конспект по мат. анализу первый семестр)
 
@@ -887,7 +887,7 @@ $$e^{At} = T \begin{pmatrix}
 
 \deff{Обратная:}
 
-$A$ - подобна диагональной 
+$A$ - подобна диагональной
 $\forall $ с.ч. $\lambda \neq 0 \Rightarrow \exists A^{-1} = T\begin{pmatrix}
     \cfrac{1}{\lambda_1} & \ldots & 0 \\
     \vdots &\ddots& \vdots\\
@@ -915,7 +915,7 @@ $\sqrt[m]{A}= \sum\limits_{\lambda \text{  c. ч.}} \sqrt[m]{\lambda} P_{\lambda
 
 \subsection{Комплексификация вещ. лин. пр-ва. Продолжение вещественного линейного оператора}
 
-Давайте посмотрим какие линейные операторы мы уже изучили: 
+Давайте посмотрим какие линейные операторы мы уже изучили:
 
 
 Пусть $\mathcal{A} \in End(V) \xleftrightarrow{e} A $, $\chi(t)$ --- корни характеристического многочлена. Он может быть:
@@ -937,8 +937,8 @@ $$\forall x,y \in V \Rightarrow  z = x+iy \in V_{\mathbb{C}} \quad V_{\mathbb{C}
 
 Покажем некоторые \textbf{свойства:}
 \begin{enumerate}
-    \item $\zero \in V \leftrightarrow \zero + i\zero = \zero \in V_{\mathbb{C}}$ - существование нуля 
-     \item $x \in V \leftrightarrow x +i\zero = x \in V_c$, $V \subset V_{\mathbb{C}}$ --- говорим, что $V\subseteq  V_{\mathbb{C}}$ 
+    \item $\zero \in V \leftrightarrow \zero + i\zero = \zero \in V_{\mathbb{C}}$ - существование нуля
+     \item $x \in V \leftrightarrow x +i\zero = x \in V_c$, $V \subset V_{\mathbb{C}}$ --- говорим, что $V\subseteq  V_{\mathbb{C}}$
     \item $\forall z = x + iy$ существует обратное: $-x+i(-y)$
 \end{enumerate}
 
@@ -960,7 +960,7 @@ $$\zero = \sum\limits_{j=1}^n(a_j+ib_j)e_j = \sum\limits_{j=1}^na_je_j + i\sum\l
 \end{cases} \iff  \begin{cases}
      \forall j : \alpha_j =0 \\
     \forall j : \beta_j =0
-\end{cases}$$ 
+\end{cases}$$
 Откуда получили линейную независимость.
 
 \hfill Q.E.D.
@@ -994,13 +994,13 @@ $$x \underset{e} \leftrightarrow \begin{pmatrix}
     \item $\rg (v_1\dots v_m) = \rg (\overline{v}_1\dots \overline{v}_m)$
 \end{enumerate}
 
-\deff{def:} Возьму оператор $\mathcal{A} \in End(V)$.  $\forall z \in V_{\mathbb{C}}: \mathcal{A}_{\mathbb{C}}z =\mathcal{A}x + i \mathcal{A}y$ 
+\deff{def:} Возьму оператор $\mathcal{A} \in End(V)$.  $\forall z \in V_{\mathbb{C}}: \mathcal{A}_{\mathbb{C}}z =\mathcal{A}x + i \mathcal{A}y$
 
 Назову данную конструкцию \deff{продолжением вещ. лин. оператора} $\mathcal{A}$ на $V_{\mathbb{C}}$ вещественного пространства $V$.
 
 Очевидно, что в таком случае $\mathcal{A}_\mathbb{C} \in End(V_{\mathbb{C}})$, т.к. $\mathcal{A}$ --- линейный оператор.
 
-\textbf{Утверждение:} $\mathcal{A} \in End(V)$, $e = (e_1,\ldots, e_n) $ базис $V$ ($\Rightarrow$ базис $V_{\mathbb{C}}$ из теоремы сверху). 
+\textbf{Утверждение:} $\mathcal{A} \in End(V)$, $e = (e_1,\ldots, e_n) $ базис $V$ ($\Rightarrow$ базис $V_{\mathbb{C}}$ из теоремы сверху).
 
 
 Тогда, если $\mathcal{A} \underset{e} \leftrightarrow A$, то $ \mathcal{A}_{\mathbb{C}} \underset{e} \leftrightarrow A$
@@ -1021,8 +1021,8 @@ $$\mathcal{A}_{\mathbb{C}}  \cdot e_j = \mathcal{A}  \cdot e_j + i\mathcal{A} \z
 \begin{enumerate}
    \item $\chi_{\mathcal{A}} (t) \equiv \chi_\mathcal{A_\mathbb{C}}(t)$ --- так как матрицы совпадают.
 
-    \textbf{Замечание:} 
-    
+    \textbf{Замечание:}
+
     1) если $\lambda = \alpha + i\beta \in \mathbb{C}, \beta \neq 0$ - корень $\chi(t) \Rightarrow \lambda$ с.ч. $\mathcal{A_\mathbb{C}}$, но не с.ч. $\mathcal{A}$.
 
    2) если $\lambda = \alpha + i\beta \in \mathbb{C}$ корень $\chi$ $\Rightarrow$ $\overline{\lambda}=\alpha - i\beta$ - тоже корень, причём той же кратности.
@@ -1050,7 +1050,7 @@ $$\mathcal{A}_{\mathbb{C}}  \cdot e_j = \mathcal{A}  \cdot e_j + i\mathcal{A} \z
 
 $\psi(t) = \prod\limits_{\lambda \text{ - корень}}(t-\lambda)^{m(\lambda)}$ -  так как это многочлен. Здесь $m(\lambda)$ --- кратность корня $\lambda$. Перепишем на место $t$ оператор:
 $$\psi(\mathcal{A} ) = \prod\limits_{\lambda \text{ - корень} }(\mathcal{A} -\lambda  \varepsilon)^{m(\lambda)}$$
-\deff{def:} Аннулятор элемента $x\in V$ наименьшей степени \\ называется \deff{минимальным аннулятором} элемента $x$. 
+\deff{def:} Аннулятор элемента $x\in V$ наименьшей степени \\ называется \deff{минимальным аннулятором} элемента $x$.
 
 \thmm{Теорема: (о существовании и единственности минимального аннулятора)}
 \begin{enumerate}
@@ -1060,7 +1060,7 @@ $$\psi(\mathcal{A} ) = \prod\limits_{\lambda \text{ - корень} }(\mathcal{A
 
 \textbf{Доказательство:}
 \begin{enumerate}
-    \item 
+    \item
     \begin{enumerate}
        \item Пусть $x = \zero$, $\psi(t)=1$, $\psi(\mathcal{A})=\varepsilon$,  $\varepsilon x=\varepsilon \zero = \zero$
 
@@ -1073,7 +1073,7 @@ $$\psi(\mathcal{A} ) = \prod\limits_{\lambda \text{ - корень} }(\mathcal{A
      Откуда получаем, что  $(\mathcal{A}^m- \sum\limits_{j=0}^{m-1}c_j\mathcal{A}^j)x= \zero$. Получил какой-то оператор, который при умножении на $x$ дает $\zero$. А это значит, аннулятор существует, причём аннулятор выше минимальный по построению.
 
      \textbf{Замечание:} мы смотрим на многочлен с коэффицентами $1,c_{n-1},\ldots, c_0$ --- этот многочлен и есть наш минимальный аннулятор..
-     
+
     \end{enumerate}
     \item Пусть мой минимальный аннулятор это $\psi(t)$, а $\psi_1(t)$ другой аннулятор $x$.
 
@@ -1106,7 +1106,7 @@ $$\varphi(\mathcal{A}) \equiv \zero , (\text{т.е.} \forall v \in V, \varphi(\m
     \item $\forall$ аннул. оператора $\mathcal{A}$ делится на миним. мн-н $\mathcal{A}$
 \end{enumerate}
 
-\textbf{Доказательство:} 
+\textbf{Доказательство:}
 
 Пусть $e = (e_1,\ldots,e_n)$ - базис $V$. Построим $\psi_{j}(t)$ - минимальный аннулятор $e_j$
 
@@ -1118,16 +1118,16 @@ $$\varphi(\mathcal{A})v = \sum\limits_{j=1}^nv_j \cdot \varphi(\mathcal{A})\cdot
 
 То есть такой многочлен существует. Теперь докажем \uline{единственность}:
 
-Пусть $\varphi_a(t)$ другой аннулятор $\mathcal{A}$: Тогда $\forall j = 1,\ldots,n:  \varphi_a(\mathcal{A})e_j= \zero$. 
+Пусть $\varphi_a(t)$ другой аннулятор $\mathcal{A}$: Тогда $\forall j = 1,\ldots,n:  \varphi_a(\mathcal{A})e_j= \zero$.
 
 Тогда $\varphi_a$ аннулятор элемента $e_j $ для любого $j$.
 
 По теореме о линейном операторе мы знаем, что  $\varphi_a$ делится на $\psi_j$ для любого $j$, то есть $\varphi_a \,\, \vdots \,\, \varphi$.
 
-Откуда я получаю, что $\varphi_a$ степени хотя бы такой же, что $\varphi$. То есть  $\varphi_a$ хотя бы Н.О.К. 
+Откуда я получаю, что $\varphi_a$ степени хотя бы такой же, что $\varphi$. То есть  $\varphi_a$ хотя бы Н.О.К.
 
 Если мы предполагаем, что это многочлен минимальной степени, то он такой же степени, как и $\varphi$. При этом они оба делятся на Н.О.К., а $\varphi$ = Н.О.К. Так же их старшие коэффиценты равны. Поэтому: $\varphi_1 = \varphi$. Исходя из этого получаем, что такой многочлен единственный. Делимость получаем из того, что любой другой аннулятор оператора является аннулятором базисных векторов, откуда делится на каждый из них $\Rightarrow$ делится на их НОК = минимальному.
-    
+
     \hfill Q.E.D.
 
 \thmm{Теорема (Кэли - Гамильтона)}
@@ -1150,7 +1150,7 @@ $$\exists!(A-\mu E)^{-1} = \cfrac{1}{\det (A- \mu E)}B = \cfrac{1}{\chi(\mu)}B$$
 Наша матрица $B$ выглядит примерно так: $\begin{pmatrix}
     \sum\limits_{i=0}^{n-1}c_{11i}\mu^i & \ldots& \sum\limits_{i=0}^{n-1}c_{1ni}\mu^i\\
     \vdots &\ddots& \vdots \\
-    \sum\limits_{i=0}^{n-1}c_{n1i}\mu^i& \ldots& \sum\limits_{i=0}^{n-1}c_{nni}\mu^i 
+    \sum\limits_{i=0}^{n-1}c_{n1i}\mu^i& \ldots& \sum\limits_{i=0}^{n-1}c_{nni}\mu^i
 \end{pmatrix}$
 
 Давайте разложим нашу матрицу в сумму матриц так, что матрица $B_k$ будет состоять из всех коэффицентов на $k$-ой позиции этих $k$ функций:
@@ -1202,31 +1202,31 @@ $\forall \mathcal{A} \in End(V)$ множество корней $\chi$ совп
     \item Пусть $\lambda$ корень $\chi$. Мы должны показать, что и у $\varphi$ есть такой корень. Тогда есть 2 варианта:
     \begin{enumerate}
         \item $\lambda \in K \Rightarrow \lambda$ - с.ч. $\Rightarrow \exists u \text{ - собственный вектор} \neq \zero$
-    
+
         Так как $u$ - собственный вектор, то $(\mathcal{A}- \lambda \varepsilon) u {=} \zero$
-       
-        $(t-\lambda)$ - минимальный аннулятор элемента $u$, 
-        $\varphi$ - минимальный многочлен $\Rightarrow$ аннулятор $v$, откуда 
+
+        $(t-\lambda)$ - минимальный аннулятор элемента $u$,
+        $\varphi$ - минимальный многочлен $\Rightarrow$ аннулятор $v$, откуда
         $\varphi \ \divby \ (t-\lambda) \Rightarrow \lambda$ корень $\varphi$ - победили
-        
-        \item $\lambda \not \in K \equiv \mathbb{R}$, т.е. $\lambda$ - не собственное число. Прибегаем к \uline{комплексификации}: 
-        
-        Для $\mathcal{A}_{\mathbb{C}}$ $\lambda$ -  корень. Как мы знаем $\chi _{\mathcal{A}_{\mathbb{C}}} 	\equiv \chi_{\mathcal{A}} = \chi$.
-        
+
+        \item $\lambda \not \in K \equiv \mathbb{R}$, т.е. $\lambda$ - не собственное число. Прибегаем к \uline{комплексификации}:
+
+        Для $\mathcal{A}_{\mathbb{C}}$ $\lambda$ -  корень. Как мы знаем $\chi _{\mathcal{A}_{\mathbb{C}}}  \equiv \chi_{\mathcal{A}} = \chi$.
+
         Тогда по пункту $a$ это корень минимального многочлена в $\varphi_{\mathbb{C}}$.
 
         Построим минимальный многочлен:
-        
+
         Пусть $e_1, \ldots ,e_n$  базис.  $\mathcal{A} \xleftrightarrow{e}A$. $\mathcal{A}_{\mathbb{C}} \xleftrightarrow{e}A$. Начнем строить по определению минимальный многочлен. Для этого мы должны найти $\psi_i(t)$ - аннулятор $e_i$.
-        
-        Выпишу: $ e_i, \mathcal{A}_{\mathbb{C}}e_i, \ldots, \mathcal{A}_{\mathbb{C}}^ke_i$. Причем $k$ такое, что $ e_i, \mathcal{A}_{\mathbb{C}}e_i, \ldots, \mathcal{A}_{\mathbb{C}}^{k-1}e_i$ - линейно независимы, а $e_i, \mathcal{A}_{\mathbb{C}}e_i, \ldots, \mathcal{A}_{\mathbb{C}}^{k}e_i$ - зависимы.         
-         Заметим, что $\mathcal{A}_{\mathbb{C}}e_j =\mathcal{A}e_j$. 
-         
+
+        Выпишу: $ e_i, \mathcal{A}_{\mathbb{C}}e_i, \ldots, \mathcal{A}_{\mathbb{C}}^ke_i$. Причем $k$ такое, что $ e_i, \mathcal{A}_{\mathbb{C}}e_i, \ldots, \mathcal{A}_{\mathbb{C}}^{k-1}e_i$ - линейно независимы, а $e_i, \mathcal{A}_{\mathbb{C}}e_i, \ldots, \mathcal{A}_{\mathbb{C}}^{k}e_i$ - зависимы.
+         Заметим, что $\mathcal{A}_{\mathbb{C}}e_j =\mathcal{A}e_j$.
+
          Поэтому по алгоритму построения мин. многочлена $\varphi_j = \varphi_{j \ \mathbb{C}}$.
          А уже откуда $\lambda$ корень $\varphi$ - победили!
-         
+
           \hfill Q.E.D.
-        
+
     \end{enumerate}
 
 \end{enumerate}
@@ -1251,7 +1251,7 @@ $$\varphi(t) = (t-\lambda)^{m(\lambda)} \cdot \varphi_{\lambda}(t)$$
 Зафиксируем $\varphi$ и $\lambda$ и назовем  \deff{главным идеалом}, порожденным многочленом $\varphi_\lambda$:
 $$ I_{\lambda} = \{p \in P_{n-1}| p \divby \varphi _{\lambda }\}$$
 
-Очевидно $I_{\lambda}$ линейное подпространство. Заметим, что $p \divby  \varphi_{\lambda} \Leftrightarrow p(t) = a_{\lambda}(t) \cdot \varphi_{\lambda}(t)$ 
+Очевидно $I_{\lambda}$ линейное подпространство. Заметим, что $p \divby  \varphi_{\lambda} \Leftrightarrow p(t) = a_{\lambda}(t) \cdot \varphi_{\lambda}(t)$
 
  Поэтому на самом деле: $I_{\lambda} \cong \{a_{\lambda}\} = P_{m(\lambda)-1}$
 
@@ -1264,9 +1264,9 @@ $$ I_{\lambda} = \{p \in P_{n-1}| p \divby \varphi _{\lambda }\}$$
  \textbf{Доказательство:}
 
  \begin{enumerate}
-     \item Проверим дизъюнктность: 
-	$$\zero = \sum\limits_{\lambda\text{ - корень $\varphi$} }p_{\lambda} \in           I_{\lambda} = \sum\limits_{\lambda} a_{\lambda}(t) \varphi_{\lambda}(t)$$
-	Зафиксируем какую-то $\lambda$ и вынесем ее за скобки:
+     \item Проверим дизъюнктность:
+  $$\zero = \sum\limits_{\lambda\text{ - корень $\varphi$} }p_{\lambda} \in           I_{\lambda} = \sum\limits_{\lambda} a_{\lambda}(t) \varphi_{\lambda}(t)$$
+  Зафиксируем какую-то $\lambda$ и вынесем ее за скобки:
         $$a_{\lambda}\varphi_{\lambda}(t) + \sum\limits_{\mu \neq \lambda}a_{\mu}(t)\cdot \varphi_{\mu}(t)$$
         Как мы знаем, для всех $\mu \neq \lambda: \varphi_{\mu} \divby (t-\lambda)^{m(\lambda)}$ % заменить деление
 
@@ -1280,7 +1280,7 @@ $$ I_{\lambda} = \{p \in P_{n-1}| p \divby \varphi _{\lambda }\}$$
      \item Проверим размерность $\dim( \bigoplus\limits_{\lambda} I_{\lambda}) =\sum\limits_{\lambda}\dim I_\lambda =\sum\limits_{\lambda}m(\lambda) =\dim P_{m-1}$, откуда прямая сумма.
  \end{enumerate}
       \hfill Q.E.D.
- 
+
  \textbf{Следствие 1:} $\forall p \in P_{m-1}: \exists! p = \sum\limits_{\lambda}p_{\lambda}$, где $p_{\lambda}(t) =\alpha_{\lambda}(t) \cdot \varphi_{\lambda}(t)$, $\deg \alpha_{\lambda}\leq m(\lambda)-1$.
 
  В частности, $1 = \sum\limits_{\lambda \text{ корень}}p_{\lambda}$ - \deff{ полиномиальное разложение единицы}
@@ -1288,10 +1288,10 @@ $$ I_{\lambda} = \{p \in P_{n-1}| p \divby \varphi _{\lambda }\}$$
  \textbf{Замечание:}
 
  \begin{enumerate}
-     \item Пусть $\lambda \neq \mu$ - корни $\varphi$ 
-     
+     \item Пусть $\lambda \neq \mu$ - корни $\varphi$
+
      $p_{\lambda} \in I_{\lambda},  \ p_{\mu} \in I_{\mu},  \ p_{\lambda}p_{\mu} \divby \varphi$
-     
+
      $p_{\lambda}(t) = \alpha_{\lambda}\varphi_{\lambda}(t)$, $p_{\mu}(t) = \alpha_{\mu}\varphi_{\mu}(t)$
 
     $p_{\lambda}(t)p_{\mu}(t)=\alpha_{\lambda}\varphi_{\lambda}(t)\alpha_{\mu}\varphi_{\mu}(t) \divby \varphi$
@@ -1322,7 +1322,7 @@ $$p(\lambda) = \sum\limits_{\mu}p_{\mu}=\sum\limits_{\mu}a_\mu\varphi_{\mu}(\lam
  \hfill Q.E.D.
 
 \textbf{Замечание.} Эта теорема позволяет нам быстро искать $\alpha_\lambda(t)$, в случае всех $m$ единиц, потому что в таком случае $\alpha_\lambda(t)$ - константа.
- 
+
 \textbf{Следствие:} $\forall \lambda: m(\lambda)=1$: Пусть $1 = \sum\limits_{\lambda}\cfrac{1}{\varphi'(\lambda)} \varphi_\lambda(t) = \sum\limits_{\lambda}p_{\lambda}(t) \Rightarrow t = \sum\limits_{\lambda}\lambda p_{\lambda}(t)$
 
 \textbf{Доказательство:}  $\displaystyle t = \sum\limits_{\lambda}\cfrac{\lambda}{\varphi'(t)}\varphi_{\lambda}(t) = \sum\limits_{\lambda}\lambda p_{\lambda}$
@@ -1342,20 +1342,20 @@ $\varepsilon = \sum\limits_{\lambda}p_{\lambda}(\mathcal{A})$, $\varepsilon = \s
 \begin{enumerate}
     \item $P_{\lambda} \in End(V)$
     \item Возьму $\lambda \neq \mu$. Замечу, что $ p_{\lambda}\cdot p_{\mu} \divby \varphi$. Тогда $p_{\lambda}(t) p_{\mu}(t) = \alpha(t)\varphi(t)$, откуда:
-    
+
     $\forall v \in V: P_{\lambda}P_{\mu}v =  a(\mathcal{A})\varphi(\mathcal{A})v = \zero$, из-за того, что $\varphi$ - минимальный многочлен.
-    
+
     Откуда $ P_{\lambda}P_{\mu}$ - аннулятор $\mathcal{A}$ или $ P_{\lambda}P_{\mu} = \zero$
 
     \item $\Rightarrow \begin{cases}
     \varepsilon = \sum\limits_{\lambda}P_{\lambda}\\
-    P_{\lambda}\cdot P_{\mu} =\zero 
+    P_{\lambda}\cdot P_{\mu} =\zero
 \end{cases} \Leftrightarrow P_{\lambda}$  - по теореме это проекторы на $\Im P_{\lambda} , \ V= \bigoplus \Im P_{\lambda}$
 \end{enumerate}
 
 Такие проекторы называются \deff{спектральными}. Это не те самые проекторы на $V_{\lambda}$. Пока что это проекторы на их собственные подпространства. Они обладают теми свойствами проекторов, что мы вывели до этого.
 
-\textbf{\uline{ЕСЛИ  $\forall \lambda: m(\lambda)=1$}}, тогда по следствию из теоремы Лагранжа, мы знаем: 
+\textbf{\uline{ЕСЛИ  $\forall \lambda: m(\lambda)=1$}}, тогда по следствию из теоремы Лагранжа, мы знаем:
 
 $\varepsilon = \sum\limits_{\lambda}P_{\lambda} $, $\mathcal{A} = \sum\limits_{\lambda}P_{\lambda}\cdot \lambda \Rightarrow \mathcal{A}$ о.п.с., $\lambda$ - с.ч $\mathcal{A}$.
 
@@ -1372,7 +1372,7 @@ $K_{\lambda} = \ker (\mathcal{A}- \lambda \varepsilon)^{m(\lambda)}$, где $m(
 \thmm{Теорема (о корневом подпространстве)}
 \begin{enumerate}
     \item $K_{\lambda}$ - инвариантно относительно $\mathcal{A}$.
-    \item $\Im P_{\lambda} = K_{\lambda}$, где $\varepsilon = \sum\limits_{\lambda}P_{\lambda}$ - оператор разложение единицы. 
+    \item $\Im P_{\lambda} = K_{\lambda}$, где $\varepsilon = \sum\limits_{\lambda}P_{\lambda}$ - оператор разложение единицы.
 
     Называются образами спектров проекторов.
 
@@ -1394,7 +1394,7 @@ $K_{\lambda} = \ker (\mathcal{A}- \lambda \varepsilon)^{m(\lambda)}$, где $m(
     Откуда $ \mathcal{A} v \in \ker(\mathcal{A} -\lambda \varepsilon)^{m(\lambda)} = K _{\lambda} \Rightarrow K_{\lambda} $ инвариантно относительно $\mathcal{A}$
 
     \item Вспомним, что: $\varepsilon = \sum\limits_{\lambda}P_{\lambda}, \ P_{\lambda }= p_{\lambda}(\mathcal{A})$, $p_{\lambda}(t)=\alpha_{\lambda}(t) \cdot \varphi_{\lambda}(t)$
-   
+
     Пусть $v \in V$. Тогда посмотрим на:
      $$( \mathcal{A}-\lambda \varepsilon)^{m(\lambda)} \cdot P_{\mu}v = $$
     Заменим $P_{\lambda}$ по формуле:
@@ -1403,15 +1403,15 @@ $K_{\lambda} = \ker (\mathcal{A}- \lambda \varepsilon)^{m(\lambda)}$, где $m(
     Так как это все многочлены от $\mathcal{A}$, то они перестановочны:
     $$ = (\alpha_{\lambda}(\mathcal{A})\cdot (\mathcal{A}-\lambda \varepsilon)^{m(\lambda)} \cdot \varphi_{\lambda}(\mathcal{A}))v = (\alpha_{\lambda}(\mathcal{A})\varphi(\mathcal{A}))v= \zero$$
     Так как $\varphi(\mathcal{A}) v = \zero$ (минимальный многочлен).
-    
+
 
 
     Откуда $ P_{\lambda}v \in \ker (\mathcal{A}-\lambda \varepsilon)^{m(\lambda)} = K_{\lambda}$. Следовательно $ \Im P_{\lambda} \subseteq K_{\lambda}$.
 
-    
-    
+
+
     \uline{Теперь докажем, что они совпадают:}
-    
+
     Возьму $\mu \ne \lambda$, а также $v \in K_{\lambda}$.  Посмотрим на $P_{\lambda}v$:
 $$P_{\mu}v= \alpha_{\mu}(\mathcal{A})\varphi_{\mu}(\mathcal{A})v =$$
  Мы знаем, что в $\varphi_\mu(\mathcal{A})$ содержится множитель $(\mathcal{A}-\lambda\varepsilon)^{m(\lambda)}$. Давайте его вынесем за скобки, получим:
@@ -1423,28 +1423,28 @@ $$P_{\mu}v= \alpha_{\mu}(\mathcal{A})\varphi_{\mu}(\mathcal{A})v =$$
     \uline{Частный случай:} если нет $\mu \ne \lambda$, т.е. $\lambda$ --- единственное с.ч. $\mathcal{A}$, то $\varphi(t) = (t - \lambda)^{m(\lambda)} \Rightarrow \varphi_{\lambda}(t) \equiv 1 \Rightarrow a_{\lambda}(t) \equiv 1 \Rightarrow \mathcal{P}_{\lambda} = \varepsilon \Rightarrow \Im\mathcal{P}_{\lambda} = V$.
 
     С другой стороны, $K_{\lambda} = Ker(\mathcal{A} - \lambda\varepsilon)^{m(\lambda)}$, но $(\mathcal{A} - \lambda\varepsilon)^{m(\lambda)}$ это буквально $\varphi(\mathcal{A}) = \zero$, так что $K_{\lambda} = V = \Im\mathcal{P}_{\lambda}$.
-    
+
 
     \item $B = \mathcal{A}\Big|_{K_{\lambda}}\in End(K_{\lambda})$
-    
-    $\forall v \in K_{\lambda}:(\mathcal{A}-\lambda \varepsilon)^{m(\lambda)}v = \zero$, откуда получаем, что $\psi(t) = (t-\lambda)^{m(\lambda)}$ - аннулятор $\mathcal{B}$. 
 
-    \uline{Хотим понять: минимальный ли это многочлен?} 
-    
-    Предположим, что он не минимальный, тогда есть $\psi_i(t)$ - минимальный многочлен $\mathcal{B}$: $\deg \psi_i <\deg \psi$. Заметим, что любой аннулятор $\mathcal{B}$ делится на минимальный многочлен, поэтому $\psi_i(t) =(t-\lambda )^{k}$, причем $k \leq m(\lambda)-1$. Тогда заметим, что $\psi_1(t) = (\mathcal{A}-\lambda \varepsilon)^{m(\lambda)-1}$ - тоже аннулятор $\mathcal{B}$. 
+    $\forall v \in K_{\lambda}:(\mathcal{A}-\lambda \varepsilon)^{m(\lambda)}v = \zero$, откуда получаем, что $\psi(t) = (t-\lambda)^{m(\lambda)}$ - аннулятор $\mathcal{B}$.
+
+    \uline{Хотим понять: минимальный ли это многочлен?}
+
+    Предположим, что он не минимальный, тогда есть $\psi_i(t)$ - минимальный многочлен $\mathcal{B}$: $\deg \psi_i <\deg \psi$. Заметим, что любой аннулятор $\mathcal{B}$ делится на минимальный многочлен, поэтому $\psi_i(t) =(t-\lambda )^{k}$, причем $k \leq m(\lambda)-1$. Тогда заметим, что $\psi_1(t) = (\mathcal{A}-\lambda \varepsilon)^{m(\lambda)-1}$ - тоже аннулятор $\mathcal{B}$.
 
     Если мы покажем, что $\varphi_1(t)=\psi_1(t)\cdot \varphi_{\lambda}(t)$ - минимальный многочлен $\mathcal{A}$, тогда наш искомый минимальный многочлен не был минимальным. Как мы знаем:
     $$\forall v \in V: \exists! v =\sum\limits_{\mu} v_{\mu}\text{, где }v_{\mu}\in \Im P_\mu =  K_\mu$$
     Покажем, что $\varphi_1(t)$ - минимальный многочлен:
 $$\varphi_1(\mathcal{A})v=\psi_1(\mathcal{A}) \varphi_{\lambda}(\mathcal{A})v = \psi_1(\mathcal{A}) \varphi_{\lambda}(\mathcal{A})\sum\limits_{\mu} v_{\mu} = \varphi_{\lambda}(\mathcal{A})\psi_1(\mathcal{A})v_\lambda + \sum\limits_{\mu\neq \lambda}\psi_1(\mathcal{A}) \varphi_{\lambda}(\mathcal{A}) v_{\mu}$$
-Как мы сказали выше: $\psi_1(t)$ - аннулятор $B$, откуда $\psi_1(\mathcal{A})v_{\lambda} = 0$ (тк $v_\lambda \in K_\lambda$). Также как мы знаем в $\varphi_\lambda(\mathcal{A})$ содержится $(\mathcal{A}-\mu\varepsilon)^{m(\mu)}$. А $v_{\mu} \in K_{\mu} = \ker (\mathcal{A}-\mu\varepsilon)^{m(\mu)}$. То есть наш многочлен и вправду минимальный. То есть мы пришли к противоречию. 
+Как мы сказали выше: $\psi_1(t)$ - аннулятор $B$, откуда $\psi_1(\mathcal{A})v_{\lambda} = 0$ (тк $v_\lambda \in K_\lambda$). Также как мы знаем в $\varphi_\lambda(\mathcal{A})$ содержится $(\mathcal{A}-\mu\varepsilon)^{m(\mu)}$. А $v_{\mu} \in K_{\mu} = \ker (\mathcal{A}-\mu\varepsilon)^{m(\mu)}$. То есть наш многочлен и вправду минимальный. То есть мы пришли к противоречию.
 
 Откуда $(t-\lambda)^{m(\lambda)}$ - минимальный многочлен для $\mathcal{B}$.
-    
+
 \end{enumerate}
  \hfill Q.E.D.
 
- 
+
 \textbf{Следствие 1:} Очевидно, что тогда $1 \leq m(\lambda) \leq \dim (K_{\lambda}) $.
 
 \textbf{Следствие 2:} $\mathcal{A}$ - о.п.с $\Leftrightarrow$ $\varphi(t) = \prod\limits_{\lambda}(t-\lambda)$, т.е $\forall \lambda: m(\lambda) =1$, (все корни $\varphi \in K$)
@@ -1458,7 +1458,7 @@ $$\varphi_1(\mathcal{A})v=\psi_1(\mathcal{A}) \varphi_{\lambda}(\mathcal{A})v = 
     Докажем, что  $\varphi(t) = \prod\limits_{\lambda}(t-\lambda)$ - минимальный многочлен:
     $$\varphi(\mathcal{A})\cdot v =\left(\prod\limits_{\lambda}(\mathcal{A}-\lambda \varepsilon)\right)\sum\limits_{\mu}v_{\mu}  = \zero$$
     Это верно, потому что в это произведение входят анулляторы собственных подпространств $(t-\lambda)$, которые будут занулять каждое из слагаемых. Откуда это аннулятор $\mathcal{A}$. А так как корни характеристического и минимального совпадают по  теореме о множестве корней характеристического многочлена, а так же потому что $\lambda$ - собственные числа - получаем, что данный многочлен - минимальный.
-    
+
     \item[$\Leftarrow$] Уже доказывали, смотрите \textbf{ЕСЛИ} над теоремой о корневом подпространстве.
 \end{enumerate}
  \hfill Q.E.D.
@@ -1486,7 +1486,7 @@ $\mathcal{A} = \mathcal{D} +\mathcal{B} $, где $\mathcal{D}$ - о.п.с, $\ma
 
 \textbf{Доказательство:}
 
-Возьмем оператор $\mathcal{A}$. У него есть $\varphi = \prod\limits_{\lambda}(t-\lambda)^{m(\lambda)}$ - минимальный многочлен. 
+Возьмем оператор $\mathcal{A}$. У него есть $\varphi = \prod\limits_{\lambda}(t-\lambda)^{m(\lambda)}$ - минимальный многочлен.
 
 Разложим на операторы разложения единицы:
 $$\varepsilon = \sum\limits_{\lambda\text{ -  корень $\varphi$}}P_{\lambda}$$
@@ -1508,10 +1508,10 @@ $\mathcal{B}\mathcal{D} = \left(\mathcal{A}-\sum\limits_{\lambda}\lambda P_\lamb
 А так как это многочлены от $\mathcal{A}$, то они перестановочны.  Поэтому и получается наша перестановочность
 
  \hfill Q.E.D.
- 
+
 \textbf{Замечание:} $\mathcal{A}\mathcal{D} = \mathcal{D} \mathcal{A}$, $\mathcal{A}\mathcal{B} = \mathcal{B} \mathcal{A}$
 
-\thmm{Теорема (единственность разложения Жордана):} 
+\thmm{Теорема (единственность разложения Жордана):}
 
 $\forall \mathcal{A} \in End(V)$. Доказать, что разложение Жордана единственно, то есть $\exists! D, B$.
 
@@ -1527,7 +1527,7 @@ $\mathcal{D'} = \sum\limits_{\mu}\mu Q_\mu$, где $Q_{\mu}$ - проектор
     \begin{enumerate}
         \item[1.1] Докажем, что $CQ_{\mu}=Q_{\mu}C$.
         \item[1.2] Докажем, что $(\mathcal{A-\mu\varepsilon})^kQ_{\mu} = C^kQ_{\mu}$.
-        \item[1.3] Покажем для каждого $\mu$ аннуляторы $\Im Q_{\mu}$. $\psi_{\mu} = (t-\mu)^{k(\mu)}$ 
+        \item[1.3] Покажем для каждого $\mu$ аннуляторы $\Im Q_{\mu}$. $\psi_{\mu} = (t-\mu)^{k(\mu)}$
         \item[1.4] Покажем, что произведение $\psi_{\mu}$ - аннулятор $\mathcal{A}$.
         \item[1.5] Покажем, что на самом деле это минимальный многочлен, откуда множество корней совпадет.
     \end{enumerate}
@@ -1536,7 +1536,7 @@ $\mathcal{D'} = \sum\limits_{\mu}\mu Q_\mu$, где $Q_{\mu}$ - проектор
 Начнем доказательство:
 \begin{enumerate}
     \item[1.1]  Возьмем $ \mu$. Докажем, что $CQ_{\mu}=Q_{\mu}C$
-    
+
     Посмотрим на $\mathcal{D}'Q_{\mu}$. Используя свойства проекторов, оно равно:
     $$\mathcal{D}'Q_{\mu}= \left(\sum\limits_{\xi}\xi Q_\xi\right) Q_{\mu } = \mu Q_{\mu}$$
      Посмотрим на $Q_{\mu}\mathcal{D}'$. Используя свойства проекторов, оно равно:
@@ -1570,15 +1570,15 @@ $\mathcal{D'} = \sum\limits_{\mu}\mu Q_\mu$, где $Q_{\mu}$ - проектор
     \textbf{Индукционный переход:} Пусть выполнено $(\mathcal{A-\mu\varepsilon})^kQ_{\mu} = C^kQ_{\mu}$,  тогда выполнено:\\
     $(\mathcal{A-\mu\varepsilon})^{k+1}Q_{\mu} = C^{k+1}Q_{\mu}$. Докажем:
     $$(\mathcal{A-\mu\varepsilon})^{k+1}Q_{\mu}  = (\mathcal{A-\mu\varepsilon})^{1}(\mathcal{A-\mu\varepsilon})^{k}Q_{\mu} = (\mathcal{A-\mu\varepsilon}) C^kQ_{\mu} = C^k(\mathcal{A-\mu\varepsilon})Q_{\mu} = C^{k+1}Q_{\mu}$$
-    
+
     \item[1.3] Посмотрим на $(\mathcal{A}-\mu \varepsilon)^k Q_{\mu}$. Как мы доказали в пункте 1.2 $(\mathcal{A}-\mu \varepsilon)^k Q_{\mu}= C^{k}Q_{\mu}$. Как мы помним, $C$ - нильпотентная, откуда есть $k$ начиная с которого  $(\mathcal{A}-\mu \varepsilon)^k Q_{\mu} = \zero$. Давайте для каждого $\mu$ введем свое $k(\mu)$ - минимальная степень, чтобы получился ноль. Из перестановочности $C^jQ, QC^j$ получаю, что $(A-\mu\varepsilon)^{k(\mu)}Q =Q(A-\mu\varepsilon)^{k(\mu)} $
 
     То есть $Q_{\mu}(\mathcal{A}-\mu \varepsilon)^{k(\mu)} =(\mathcal{A}-\mu \varepsilon)^{k(\mu)}Q_{\mu}=C^{k(\mu)}Q_{\mu}=\zero$. Это значит, что любой вектор из $\Im Q_{}\mu$ применяя к нему $(\mathcal{A}-\mu \varepsilon)^{k(\mu)}$  будет получаться ноль.
-    То есть многочлен $(t-\mu)^{k(\mu)}$ - минимальный аннулятор векторов из $\Im Q_m$. 
+    То есть многочлен $(t-\mu)^{k(\mu)}$ - минимальный аннулятор векторов из $\Im Q_m$.
 
     \textbf{Замечание:}  именно здесь применяется пункт 1.1.
 
-    \item[1.4] Возьму $\psi = \prod\limits_{\mu}(t-\mu)^{k(\mu)}$. Покажу, что это аннулятор $\mathcal{A}$. 
+    \item[1.4] Возьму $\psi = \prod\limits_{\mu}(t-\mu)^{k(\mu)}$. Покажу, что это аннулятор $\mathcal{A}$.
 
     $\forall x: \exists!x = \sum\limits_{\mu}x_{\mu} $, где $x_{\mu} \in \Im Q_{\mu}$ - по определению проекторов.
 
@@ -1619,7 +1619,7 @@ $\chi_{\mathcal{A}}\equiv \chi_\mathcal{D}$
 
 \textbf{Доказательство:}
 
-По теореме о о.п.с у $\mathcal{A}$ и $\mathcal{D}$ совпадает множество корней. 
+По теореме о о.п.с у $\mathcal{A}$ и $\mathcal{D}$ совпадает множество корней.
 
 Но нам надо теперь понять что-то про степени. $\nu = \max(m(\lambda)); \mathcal{B}^\nu = \zero$. Тогда:
 $$(\mathcal{A}-\mu \varepsilon)^{\nu}=(\mathcal{A}-\mu \varepsilon)^{\nu} - \mathcal{B}^\nu t^\nu = (\mathcal{A-\mu \varepsilon-\mathcal{B}}t)((\mathcal{A}-\mu\varepsilon)^{\nu-1}+ (\mathcal{A}-\mu\varepsilon)^{\nu-2}\mathcal{B}t + \ldots + (\mathcal{B}t)^{\nu-1})$$
@@ -1663,7 +1663,7 @@ $K=K_{\lambda} = \ker (A-\lambda)^{m(\lambda)},B = (\mathcal{A}-\lambda\varepsil
 
 \textbf{Доказательство:}
 
-Пусть существует: $K_r \equiv K_{r+1}$. $\ker B^r = \ker B^{r+1}$. Тогда по теореме о ранге и дефекте: 
+Пусть существует: $K_r \equiv K_{r+1}$. $\ker B^r = \ker B^{r+1}$. Тогда по теореме о ранге и дефекте:
 
 $\rg B^r = \rg B^{r+1}, \Im B^{r+1} \subseteq \Im B^r\Rightarrow \Im B^{r+1} =\Im B^r $
 
@@ -1679,7 +1679,7 @@ $\rg B^r = \rg B^{r+1}, \Im B^{r+1} \subseteq \Im B^r\Rightarrow \Im B^{r+1} =\I
    \includegraphics[width = 15cm]{assets/7_9-zhordan-sample.png}
 \end{center}
 
-Рассмотрим такое $K$, что его ранг $24$. И давайте  сопоставим точкам на рисунке базисные вектора. Тогда у $K_1$ будет $6$ базисных векторов, у $K_2$ будет $11$ и так далее. Тогда давайте введем новое определение: $\overline{K}_5$, такое подпространство, что $(KB + K_4) \oplus \overline{K}_5 = K$. Возьму оттуда первый базисный вектор. Назову его $j_5$. На картинке вы можете это отчетливо видеть. Тогда возьму $j_4 =Bj_5$, $j_3 =Bj_4$, $j_2 =Bj_3$, $j_1 =Bj_2$. Причем заметим, что в таком случае $j_i \in K_i$. 
+Рассмотрим такое $K$, что его ранг $24$. И давайте  сопоставим точкам на рисунке базисные вектора. Тогда у $K_1$ будет $6$ базисных векторов, у $K_2$ будет $11$ и так далее. Тогда давайте введем новое определение: $\overline{K}_5$, такое подпространство, что $(KB + K_4) \oplus \overline{K}_5 = K$. Возьму оттуда первый базисный вектор. Назову его $j_5$. На картинке вы можете это отчетливо видеть. Тогда возьму $j_4 =Bj_5$, $j_3 =Bj_4$, $j_2 =Bj_3$, $j_1 =Bj_2$. Причем заметим, что в таком случае $j_i \in K_i$.
 
 Такие $j_5,j_4,j_3,j_2,j_1$ мы будем называть \deff{циклическим базисом} длины 5, а $j_4,j_3,j_2,j_1$ будут называться \deff{присоединенными}.
 
@@ -1697,9 +1697,9 @@ $$
 \begin{center}
    \includegraphics[width = 15cm]{assets/7_9-zhordan-castle.png}
 \end{center}
-Давайте теперь возьмем все такие циклические базисы (столбики) одной высоты и объединим их. Получатся \deff{башни}. Или более формально башня - подпространство, порожденное циклическими базисами одной длины. У башни есть \deff{опорные подпространства} (основание башни), а так же у каждой башни есть \deff{крыша}.  Они подписаны на рисунках сверху. Башни мы будем обозначать $\tau_h$, где $h$ высота башни. То есть на данном рисунке присутствуют башни $\tau_1,\tau_3,\tau_4,\tau_5$, но не присутствует башня $\tau_2$. 
+Давайте теперь возьмем все такие циклические базисы (столбики) одной высоты и объединим их. Получатся \deff{башни}. Или более формально башня - подпространство, порожденное циклическими базисами одной длины. У башни есть \deff{опорные подпространства} (основание башни), а так же у каждой башни есть \deff{крыша}.  Они подписаны на рисунках сверху. Башни мы будем обозначать $\tau_h$, где $h$ высота башни. То есть на данном рисунке присутствуют башни $\tau_1,\tau_3,\tau_4,\tau_5$, но не присутствует башня $\tau_2$.
 
-Замок Жордана, возвышающийся над живописными холмами Прованса, хранит немало тайн. Говорят, что в 15 веке в нем жил загадочный алхимик по имени Пьер. Местные жители часто видели странное зеленоватое свечение в окнах замка по ночам... 
+Замок Жордана, возвышающийся над живописными холмами Прованса, хранит немало тайн. Говорят, что в 15 веке в нем жил загадочный алхимик по имени Пьер. Местные жители часто видели странное зеленоватое свечение в окнах замка по ночам...
 
 Так о чем это я? Вся эта конструкция величается \deff{ЗАМКОМ ЖОРДАНА}. А если у нас $\alpha(\lambda)=\gamma(\lambda)=\dim V_\lambda$, то наш замок будет просто полоской, поэтому мы его будем называть \deff{деревней Жордана}.
 
@@ -1716,7 +1716,7 @@ $$
      0 & 0 & 0 & 0  & 0 & 0 & J_1(\lambda)\\
 \end{pmatrix}=J(\lambda)
 $$
-Называется \deff{блоком верхнего уровня}, причем $m$ - размер самой большой клетки. При этом, если раскрыть все $J$, то получится: 
+Называется \deff{блоком верхнего уровня}, причем $m$ - размер самой большой клетки. При этом, если раскрыть все $J$, то получится:
 \begin{center}
    \includegraphics[width = 20cm]{assets/7_9-zhordan-high-matrix.png}
 \end{center}
@@ -1729,7 +1729,7 @@ $$J = \begin{pmatrix}
     & & \ddots & \\
     & & &  J(\xi)
 \end{pmatrix}$$
-$T = T_{\text{кан $\rightarrow$ жорд. базис}} = \text{объединение всех циклических базисов}$. 
+$T = T_{\text{кан $\rightarrow$ жорд. базис}} = \text{объединение всех циклических базисов}$.
 
 И если $A$ - матрица $\mathcal{A}$, то: $T^{-1}AT=J$.
 
@@ -1737,7 +1737,7 @@ $T = T_{\text{кан $\rightarrow$ жорд. базис}} = \text{объедин
 
 \textbf{А ТЕПЕРЬ НА ЯЗЫКЕ МАТЕМАТИКИ:}
 
-$B = (\mathcal{A}-\lambda\varepsilon)\Big|_{K}$. 
+$B = (\mathcal{A}-\lambda\varepsilon)\Big|_{K}$.
 Введу $K_1 \subset K_2 \subset \ldots \subset K_r \subset \ldots \subset K_m = K$, где $K_r = \ker B^r$.
 
 Введем временное обозначение:
@@ -1750,7 +1750,7 @@ $\vdots$\\
 $z_m = BK + K_m = K$
 
 Заметим, что в таком случае: $z_0 \subseteq z_1 \subseteq \ldots \subseteq z_m $, а также $z_{r+1}= z_r \oplus \overline{K}_{r+1}$, где $\overline{K}_r$ - \deff{опорное подпространство}. Тогда заметим вот такую формулу:
-$$K = z_m= BK+K_m  = z_{m-1} \oplus \overline{K}_m = BK \oplus\overline{K}_1 \oplus \overline{K}_2 \oplus \ldots \oplus \overline{K}_m$$ 
+$$K = z_m= BK+K_m  = z_{m-1} \oplus \overline{K}_m = BK \oplus\overline{K}_1 \oplus \overline{K}_2 \oplus \ldots \oplus \overline{K}_m$$
 Прямую сумму $K_{\lambda}$ называют \deff{прямой суммой опорных подпространств}.
 
 \thmm{Теорема:}
@@ -1798,7 +1798,7 @@ $B^{m-1}K = B^m K \oplus B^{m-1}\overline{K}_m = B^{m-1} \overline{K}_m $\\
 \deff{def:} Если $\overline{K}_r\neq \{\zero\}$, то тогда:
 $\overline{K}_r \oplus B\overline{K}_r \oplus \ldots \oplus B^{r-1}\overline{K}_{r} = \tau_r$ - называется \deff{башней} высоты $r$.
 
-Заметим, что $l$-ый этаж башни - $B^{r-l} K_r$. 
+Заметим, что $l$-ый этаж башни - $B^{r-l} K_r$.
 
  Если $\overline{K_r}=\{\zero\} \Rightarrow$ башни высоты $r$ нет.
 
@@ -1833,7 +1833,7 @@ $$d_r = \rg B^{r-1}-2 \rg B^r + \rg B^{r+1}$$
 $B^rK = B^{r+1}K \oplus B^r\overline{K}_{r+1}\oplus\ldots\oplus B^r \overline{K}_m$
 
 Введем обозначение $p_r:=\dim \Im B^r = \dim B^rK = \rg B^r$. Тогда:
-$$p_r - p_{r+1} = d_{r+1}+d_{r+2}+\ldots +d_m$$ 
+$$p_r - p_{r+1} = d_{r+1}+d_{r+2}+\ldots +d_m$$
 Давайте напишем разности:
 
 $p_0-p_1 = d_1 + d_2 +\ldots + d_m$\\
@@ -1845,7 +1845,7 @@ $p_{m-1}-p_m = \quad\quad\quad\quad \quad \,\,d_m$
 
 \textbf{Замечание:} Такое равенство в теореме не очень удобно, потому что $B $ - суженное изображение.  todo: дописать формулу с практики
 
-\begin{wrapfigure}[12]{r}{0.4\linewidth} 
+\begin{wrapfigure}[12]{r}{0.4\linewidth}
 \begin{center}
     \includegraphics[width = 8cm]{assets/7_9-zhordan-table.png}
 \end{center}
@@ -1863,7 +1863,7 @@ $$A\Big|_S  \xleftrightarrow{j}\begin{pmatrix}
     \lambda & 1 & &\\
      & \ddots &\ddots &\\
      & & \ddots & 1 \\
-     0& &  &\lambda 
+     0& &  &\lambda
 \end{pmatrix}$$
 
 $$\tau_r = \bigoplus\limits_{p = 1}^{d_r}S_p, \quad K_{\lambda} = \bigoplus\limits_{r = 1}^{m(\lambda)}\tau_r(\lambda)$$
@@ -1872,7 +1872,7 @@ $V = \bigoplus\limits_{\lambda\text{ - с.ч.}} K_\lambda = \bigoplus\limits_{\l
 
 \subsection{Функция оператора матрицы, приводимой к Жордановой форме.}
 
-$f(x) = \sum\limits_{m = 0}^{\infty}c_m x^m, |x|< r$ 
+$f(x) = \sum\limits_{m = 0}^{\infty}c_m x^m, |x|< r$
 
 $f(A) = \sum\limits_{m=0}^{\infty}c_m A^m$, $|\lambda|< r$ - все случайные числа.
 
@@ -1914,18 +1914,18 @@ $(\lambda E + I_k)^m = \sum\limits_{j=0}^m C_m^j \lambda^{m-j} (I_k)^j  $ % пр
 
 Теперь мы можем показать соответствующую матрицу (туда была добавлена $t$):
 \begin{center}
- \includegraphics[width = 15cm]{assets/7_10-function.png}    
+ \includegraphics[width = 15cm]{assets/7_10-function.png}
 \end{center}
 Теперь посмотрим $f(J_kt)=\sum\limits_{m=0}^{\infty}c_m J_k^mt^m = $
 \begin{center}
- \includegraphics[width = 15cm]{assets/7_10-limit-function.png}    
+ \includegraphics[width = 15cm]{assets/7_10-limit-function.png}
 \end{center}
 
 У ряда мы можем брать производную сколько угодно раз (факт из математического анализа) (от функции в которую подставлен $\lambda t$)
 
 Откуда наша страшная формула равна $f(\lambda t) = \begin{pmatrix}
     f(\lambda t) & \cfrac{t}{1!}f'(\lambda t) & \cfrac{t^2}{2!}f^{(2)}(\lambda t) & \ldots & \ldots & \\
-    0 & f(\lambda t) & \cfrac{t}{1!}f'(\lambda t) &\ddots &\ldots 
+    0 & f(\lambda t) & \cfrac{t}{1!}f'(\lambda t) &\ddots &\ldots
     \\
     \vdots & \ddots & \ddots & \ddots& \ldots
 \end{pmatrix}$
