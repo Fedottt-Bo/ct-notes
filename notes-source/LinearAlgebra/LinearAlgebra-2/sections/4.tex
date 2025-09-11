@@ -6,11 +6,11 @@ $\forall f \in V^*: \forall x \in U: (\mathcal{A}^*f)(x) = f(\mathcal{A}x) $
 
 $\mathcal{A}^*$ называется \deff{линейным отображением, сопряженным к $\mathcal{A}$}.
 
-Покажем, что $\mathcal{A}^* \in L(V^*,U^*)$. 
+Покажем, что $\mathcal{A}^* \in L(V^*,U^*)$.
 $$\forall x \in U:\forall \lambda \in K: \forall f_1,f_2 \in V^*: \mathcal{A}^*(\lambda f_1+f_2)= (\lambda f_1 + f_2)(\mathcal{A}x) = \lambda f_1(\mathcal{A}x)+ f_2(\mathcal{A}x)$$
 Откуда линейное отображение.
 
-Если $U = V, \mathcal{A} \in End(V): \mathcal{A}^*\in End(V^*)$ ----  линейный оператор сопряженный к $\mathcal{A}$ или \deff{сопряженный оператор}.
+Если $U = V, \mathcal{A} \in End(V): \mathcal{A}^*\in End(V^*)$ ---  линейный оператор сопряженный к $\mathcal{A}$ или \deff{сопряженный оператор}.
 
 Пусть $V$ это пространство со скалярным произведением (евклидово или унитарное).
 
@@ -31,10 +31,10 @@ $(x, \mathcal{A}^* y)=(x,z)=g(x)=(\mathcal{A}^* f )(x) = f(\mathcal{A}x) = (\mat
 \textbf{Свойства $\mathcal{A}$:}
 
 \begin{enumerate}
-    \item $(V, (\cdot, \cdot)), e= (e_1,\ldots, e_n)$ - базис.
 
-$$A^\circledast = \overline{\Gamma^{-1}} A^* \overline{\Gamma}$$
-где $A^* = \overline{A^T}$
+\item $(V, (\cdot, \cdot)), e= (e_1,\ldots, e_n)$ - базис, $\mathcal{A} \xleftrightarrow{e} A$.
+
+Тогда $\mathcal{A}^* \xleftrightarrow{e} A^\circledast = \overline{\Gamma^{-1}} A^* \overline{\Gamma}$, где $A^* = \overline{A^T}$.
 
 \textbf{Доказательство:}
 
@@ -66,9 +66,9 @@ $\forall \mathcal{A}, \mathcal{B}\in End(V):\forall \lambda \in K:\forall x,y \i
 
 $\forall x \in \ker \mathcal{A}: \mathcal{A}x = \zero : \forall y \in V: (x, \mathcal{A}^*y) = (\mathcal{A}x,y)=0$
 
-$\Rightarrow \ker \mathcal{A} \subseteq (\Im \mathcal{A}^*)^\perp$. 
+$\Rightarrow \ker \mathcal{A} \subseteq (\Im \mathcal{A}^*)^\perp$.
 
-По теореме о ранге и дефекте: 
+По теореме о ранге и дефекте:
 $$\rg \mathcal{A} + def \mathcal{A} = n$$
 Хочу показать, что $\rg \mathcal{A} = \rg \mathcal{A}^*$. Мы знаем, что:
 $$A^\circledast = \overline{\Gamma^{-1}}A^* \overline{\Gamma^{}}$$
@@ -97,7 +97,7 @@ $(\mathcal{A}\mathcal{A}^{-1})^*= (\mathcal{A}^{-1}\mathcal{A})^* = \varepsilon^
 
 \hfill Q.E.D.
 
-\item $\chi_\mathcal{A}(\lambda) = 0  \Leftrightarrow \chi_{\mathcal{A}^*}(\overline{\lambda})=0$. 
+\item $\chi_\mathcal{A}(\lambda) = 0  \Leftrightarrow \chi_{\mathcal{A}^*}(\overline{\lambda})=0$.
 
 \textbf{Замечание:}  Из этого следует $\chi_{\mathcal{A}^*}(t)=\overline{\chi_\mathcal{A}(\overline{t})}$.
 
@@ -117,7 +117,7 @@ $(\lambda - \overline{\mu})(u,v) = 0$. Откуда уже и требуется
 
 \hfill Q.E.D.
 
-\item $L \subset V$ инвариантно относительно $\mathcal{A} \Rightarrow L^\perp$ инвариатно относительно $\mathcal{A}^*$  
+\item $L \subset V$ инвариантно относительно $\mathcal{A} \Rightarrow L^\perp$ инвариатно относительно $\mathcal{A}^*$
 
 \textbf{Доказательство:}
 
@@ -147,7 +147,7 @@ $$\Leftrightarrow \forall x,y \in V: (\mathcal{A}x, \mathcal{A}y) = (\mathcal{A}
     Покажем, что $A'A'^* = A'^*A':$
     $$A'A'^* = T^{-1}A A^*T = T^{-1}A^*AT = A'^*\cdot A'$$
     Откуда $\mathcal{A}$ - нормальный.
-    
+
     \hfill Q.E.D.
 
     \item $\ker \mathcal{A} = \ker A^*,(\ker \mathcal{A})^\perp = \Im \mathcal{A}$. $\ker (\mathcal{A}^2)=\ker (\mathcal{A})$.
@@ -181,7 +181,7 @@ $$\Leftrightarrow \forall x,y \in V: (\mathcal{A}x, \mathcal{A}y) = (\mathcal{A}
     \textbf{Доказательство:}
 
     $\lambda$ с.ч. $v$ с.в. $\mathcal{A} \Leftrightarrow v \neq 0 \in \ker (\mathcal{A}-\lambda \varepsilon) = \ker B = \ker B^* \Leftrightarrow v \in \ker B^* \Leftrightarrow v\in \ker(A^*-\overline{\lambda}\varepsilon) \Leftrightarrow \mathcal{A}^*v = \overline{\lambda} v$
-   
+
     \hfill Q.E.D.
 
     \item $\lambda$ с.ч, $v$ с.в $\mathcal{A}$, а также $\mu$ с.ч., а $u$ его с.в. $\mathcal{A}$. Если $\lambda\neq \mu \Rightarrow u \perp v$.
@@ -192,20 +192,20 @@ $$\Leftrightarrow \forall x,y \in V: (\mathcal{A}x, \mathcal{A}y) = (\mathcal{A}
 
     \hfill Q.E.D.
 
-    \textbf{Замечание:} Из этого следует ортогональность собств. подпространств.    
+    \textbf{Замечание:} Из этого следует ортогональность собств. подпространств.
 
-    
+
 \end{enumerate}
 
-\thmm{Теорема(о каноническом виде матрицы нормального оператора в унит. пространстве)} 
+\thmm{Теорема(о каноническом виде матрицы нормального оператора в унит. пространстве)}
 
-$\mathcal{A} \in End(V)$. 
+$\mathcal{A} \in End(V)$.
 
 $\mathcal{A}$ нормальный оператор $\Leftrightarrow \exists$ о.н.б. $e$ пространства $V$, $\mathcal{A}\xleftrightarrow[]{e}\Lambda= diag(\lambda_1,\ldots,\lambda_n)$, $\lambda_i \in K$
 
 \textbf{Доказательство:}
 
-В левую сторону. $\mathcal{A} \xleftrightarrow[\text{о.н.б}]{e}\Lambda = diag (\lambda_1,\ldots,\lambda_n)$ по условию, а также  $\mathcal{A}^* \xleftrightarrow[\text{о.н.б}]{e}\Lambda^* = diag (\overline{\lambda_1},\ldots,\overline{\lambda_n})$ (см. замечание). 
+В левую сторону. $\mathcal{A} \xleftrightarrow[\text{о.н.б}]{e}\Lambda = diag (\lambda_1,\ldots,\lambda_n)$ по условию, а также  $\mathcal{A}^* \xleftrightarrow[\text{о.н.б}]{e}\Lambda^* = diag (\overline{\lambda_1},\ldots,\overline{\lambda_n})$ (см. замечание).
 
 Откуда $\Lambda \cdot \Lambda^* = \Lambda^* \Lambda$ в некотором о.н.б $\Rightarrow$ по первому свойству нормальный оператор.
 
@@ -299,9 +299,9 @@ $\forall z \in V_\C, \mathcal{A}_\C z=\mathcal{A}x + i \mathcal{A}y$
     \item $(\mathcal{A}\mathcal{B})_\C = \mathcal{A}_\C \mathcal{B}_\C$
     \item $\mathcal{A}$ -  невырожденная $\Rightarrow$ $\mathcal{A}_\C$ невырожденная и $(\mathcal{A}_\C)^{-1} = (\mathcal{A}^{-1})_\C$
     \item $(\mathcal{A}_\C)^* = (\mathcal{A}^*)_\C$
-    
+
     \item $\mathcal{A}$ норм. $\Rightarrow \mathcal{A}_\C$ норм.
-    \item $\lambda$ с.ч. $\mathcal{A}$, $V_{\lambda}$ собственное подпространство $\mathcal{A} \Rightarrow (V_{\lambda})_{\C}$ собственное подпространство $\mathcal{A}_\C$, $\lambda$ с.ч. $\mathcal{A}_\C$. 
+    \item $\lambda$ с.ч. $\mathcal{A}$, $V_{\lambda}$ собственное подпространство $\mathcal{A} \Rightarrow (V_{\lambda})_{\C}$ собственное подпространство $\mathcal{A}_\C$, $\lambda$ с.ч. $\mathcal{A}_\C$.
 \end{enumerate}
 
 \textbf{Доказательство теоремы:}
@@ -322,7 +322,7 @@ $\Lambda = \begin{pmatrix}
     & & & \Phi_1^T & &\\
     & & & & \ddots & \\
     0& & & & & \Phi_m^T
-\end{pmatrix}$ 
+\end{pmatrix}$
 
 Давайте умножим матрицу $\Lambda$ и $\Lambda^*$. Для этого сначала умножу, $$\Phi_j^T \cdot \Phi_j = \begin{pmatrix}
     \alpha_j &-\beta_j\\
@@ -334,7 +334,7 @@ $\Lambda = \begin{pmatrix}
 
 \deff{Теперь докажем в другую сторону. }
 
-Пусть $\mathcal{A}$ нормальный оператор. Комплесифицируем и получим $V \rightarrow{} V_\C, \mathcal{A}\rightarrow{} \mathcal{A}_\C$.  
+Пусть $\mathcal{A}$ нормальный оператор. Комплесифицируем и получим $V \rightarrow{} V_\C, \mathcal{A}\rightarrow{} \mathcal{A}_\C$.
 
 Наша цель: построить базис из вещ. векторов(т.е. $\in V$), в котором матрица $\mathcal{A}_\C$ будет иметь заявленный вид, потому что по свойству матрица $\mathcal{A}$ будет иметь такой же вид.
 
@@ -357,9 +357,9 @@ $$\mathcal{A}_\C \overline{z} = \overline{\mathcal{A}_\C z} = \overline{\mu_1 z}
 
 Откуда $V_\C = \span(w_1,\ldots,w_k, u_1,v_1,\ldots,u_m,v_m)_\C$ - ортогональный базис, где $w_1,\ldots, w_k$ - сумма ортонормированных базисов $V_\lambda$ для собственных чисел $\lambda \in \R$.
 
-Базис у нас получается состоит из вещественных векторов $\Rightarrow \mathcal{A}_\C\leftrightarrow \Lambda$ вещественный. 
+Базис у нас получается состоит из вещественных векторов $\Rightarrow \mathcal{A}_\C\leftrightarrow \Lambda$ вещественный.
 
-Тогда посмотрим на матрицу оператора в нашем ортогональном базисе. 
+Тогда посмотрим на матрицу оператора в нашем ортогональном базисе.
 $$\mathcal{A}_\C w_j = \lambda_j w_j$$
 $$ \mathcal{A}_\C u = A_\C \left(\cfrac{z + \overline{z}}{2}\right) = \frac{ \mathcal{A}_\C z +  \mathcal{A}_\C \overline{z}}{2} = \cfrac{(\alpha + \beta i)z + (\alpha - \beta u)\overline{z}}{2} =$$
 $$=\alpha \left(\cfrac{z+\overline{z}}{2}\right) + i^2 \beta \left(\cfrac{z-\overline{z}}{2i}\right)  = au - \beta v$$
@@ -384,14 +384,14 @@ $$\mathcal{A}_\C v = av + \beta u$$
 
 \deff{def:} $\mathcal{A}\in End(V)$. $\mathcal{A}$ называется \deff{самосопряженным} если $\mathcal{A}^* =\mathcal{A} \Leftrightarrow \forall x,y \in V: (\mathcal{A}x,y) = (x,\mathcal{A}y) $
 
-В $\R$ они будут называться \deff{симметричными}. В $\C$ они будут названы \deff{эрмитовы}. 
+В $\R$ они будут называться \deff{симметричными}. В $\C$ они будут названы \deff{эрмитовы}.
 
 Очевидно $\mathcal{A}$ самосопряженный $\Rightarrow$ нормальный.
 
 \textbf{Свойства:}
 
 \begin{enumerate}
-    \item $\mathcal{A}$ самосопряж. $\Leftrightarrow \exists $ о.н.б., где $A = A^*$. 
+    \item $\mathcal{A}$ самосопряж. $\Leftrightarrow \exists $ о.н.б., где $A = A^*$.
     \item $\mathcal{A}, \mathcal{B}$ самосопряж $\Rightarrow (\mathcal{A}+\lambda \mathcal{B})$ самосопряж, $\forall \lambda \in \R$
     \item $\mathcal{A},\mathcal{B}$ самосопряж. и $\mathcal{A}\mathcal{B}=\mathcal{BA}\Rightarrow \mathcal{AB}$ самосопряженный.
     \item $\exists \mathcal{A}^{-1},\mathcal{A}$ самосоп. $\Rightarrow \mathcal{A}^{-1}$ самосопряж.
@@ -416,7 +416,7 @@ $$\mathcal{A}_\C v = av + \beta u$$
 \end{enumerate}
 
 
-\deff{def:} $Q\in End(V)$. $Q$ называется \deff{изометрическим}, если $Q$ невырождена  и $Q^*=Q^{-1} \Leftrightarrow \forall x,y \in V: (Qx,Qy)= (x,y)$. 
+\deff{def:} $Q\in End(V)$. $Q$ называется \deff{изометрическим}, если $Q$ невырождена  и $Q^*=Q^{-1} \Leftrightarrow \forall x,y \in V: (Qx,Qy)= (x,y)$.
 
 \textbf{Замечание:}  $(Qx,Qy) = (Q^*Qx,y) \rightarrow{ Q \cdot Q^* = \varepsilon}$
 
@@ -428,7 +428,7 @@ $$\mathcal{A}_\C v = av + \beta u$$
 \begin{enumerate}
     \item $Q$ изометрич. $\Leftrightarrow \exists $ о.н.б. $Q^{-1}=Q^*$.
     \item $Q$ изометрич. $\Leftrightarrow Q$ переводит о.н.б. в о.н.б.
-    
+
     \textbf{Доказательство:}
 
     \uline{В правую сторону:} $Q$ изометрич., $e$ о.н.б.: $(e_i,e_j) = \delta_{i,j}$. Откуда если просто расписать определение, то получим $(e_i,e_j) = (Q e_i,Qe_j) = \delta_{ij}$
@@ -451,11 +451,11 @@ $$\mathcal{A}_\C v = av + \beta u$$
 
     \textbf{Доказательство:}
 
-    $\forall x\in L: \forall y \in L^\perp$. $Q$ - невырожд. оператор, откуда $\exists! z\neq 0 \in L:x = Qz$. Откуда $(x, Qy) = (Qz, Qy ) = (z,y) = 0$, тк $y \in L^\perp, z \in L$. Получаю, что $(x,Qy) = 0$, при любом $x\in L$, откуда $Qy \in L^\perp \Rightarrow$ инвариантно. 
+    $\forall x\in L: \forall y \in L^\perp$. $Q$ - невырожд. оператор, откуда $\exists! z\neq 0 \in L:x = Qz$. Откуда $(x, Qy) = (Qz, Qy ) = (z,y) = 0$, тк $y \in L^\perp, z \in L$. Получаю, что $(x,Qy) = 0$, при любом $x\in L$, откуда $Qy \in L^\perp \Rightarrow$ инвариантно.
 
-    
 
-    \hfill Q.E.D.    
+
+    \hfill Q.E.D.
 \end{enumerate}
 \thmm{Теорема (о каноническом виде матрицы самосопряженного оператора)}
 
@@ -490,7 +490,7 @@ $\mathcal{A}$ самосопр. $\Leftrightarrow \exists$ о.н.б $e$, тако
     -\beta_j &\alpha_j
 \end{pmatrix}$
 , причем $\alpha_j^2 + \beta_j^2 = 1$.
-    
+
 \end{enumerate}
 
 \pagebreak
@@ -498,7 +498,7 @@ $\mathcal{A}$ самосопр. $\Leftrightarrow \exists$ о.н.б $e$, тако
 
 \deff{def:} $\mathcal{A} \in End(V): (V, (\cdot,\cdot))$ евклидово или унитарно.
 
-$\mathcal{A} = \mathcal{A}^*$ самосопряженный оператор. 
+$\mathcal{A} = \mathcal{A}^*$ самосопряженный оператор.
 
 \begin{enumerate}
     \item $\mathcal{A} > 0$ положительно определен: $\forall u \neq 0: (\mathcal{A}u,u) = (u, \mathcal{A}u)>0$.
@@ -517,10 +517,10 @@ $\mathcal{A} = \mathcal{A}^*$ самосопряженный оператор.
 $\mathcal{A} = \mathcal{A}^*$ все корни $\chi$ вещественныe. Тогда:
 
 \begin{enumerate}
-    \item $\mathcal{A} > 0 \Leftrightarrow$ все с.ч. $\lambda >0$. 
-     \item $\mathcal{A} < 0 \Leftrightarrow$ все с.ч. $\lambda <0$. 
-     \item $\mathcal{A} \geq 0 \Leftrightarrow$ все с.ч. $\lambda \geq0$, причем есть $\lambda =0 $. 
-     \item $\mathcal{A} \leq0 \Leftrightarrow$ все с.ч. $\lambda \leq0$, причем есть $\lambda =0 $. 
+    \item $\mathcal{A} > 0 \Leftrightarrow$ все с.ч. $\lambda >0$.
+     \item $\mathcal{A} < 0 \Leftrightarrow$ все с.ч. $\lambda <0$.
+     \item $\mathcal{A} \geq 0 \Leftrightarrow$ все с.ч. $\lambda \geq0$, причем есть $\lambda =0 $.
+     \item $\mathcal{A} \leq0 \Leftrightarrow$ все с.ч. $\lambda \leq0$, причем есть $\lambda =0 $.
     \item $\mathcal{A} \rightleftharpoons  0$, то $\exists $ $\lambda,\mu$ с.ч, что $\lambda >0, \mu<0$
 \end{enumerate}
 
@@ -538,7 +538,7 @@ $ \mathcal{A} = \mathcal{A}^*, V = \bigoplus\limits_{\lambda} V_\lambda: V_\lamb
 \begin{enumerate}
     \item $A >0 \Rightarrow \forall \lambda : \lambda ||v_\lambda|| >0 \Rightarrow \lambda >0$
     \item $A \geq  0 \Rightarrow \forall \lambda: \lambda ||v_\lambda|| \geq 0 \Rightarrow \lambda \geq 0$, а также:
-    $\exists u: (Au,u) = 0$, так как у нас прямая сумма подпространств, то $\zero \neq u = \sum\limits_\lambda u_\lambda$. 
+    $\exists u: (Au,u) = 0$, так как у нас прямая сумма подпространств, то $\zero \neq u = \sum\limits_\lambda u_\lambda$.
 
     $0=(\mathcal{A}u,u) = \sum\limits_\lambda \lambda||u_\lambda||^2 =0$. Заметим, что получаем, что $\exists \mu = 0$, потому что существует $||v_\lambda|| > 0 $, при ней коэффициент не может быть не нулем (иначе сумма будет не нулем).
 \end{enumerate}
@@ -552,7 +552,7 @@ $$\forall u \in V, u =\sum\limits_{\lambda}  u_\lambda, \mathcal{A}u = \sum\limi
 
 \begin{enumerate}
     \item Если у нас все $\lambda > 0 \Rightarrow (\mathcal{A}u,u) > 0$, тк если $u \neq 0 : \exists \mu: u_\mu \neq 0$, такое что $||u_\mu||^2 \neq 0, \mu >0 \Rightarrow \sum\limits_{\lambda}\lambda||u_\lambda||^2 > 0$
-    
+
     Получили, что из выше сказанного доказали, что $A > 0$
 
     \item Если у нас все $\lambda \geq 0$, то аналогичным образом получаем, что $ (\mathcal{A}u,u) \geq 0$. У нас есть $\mu = 0$, возьму его собственный вектор $\neq 0$ и получу, что $(\mathcal{A} v_\mu,v_\mu) = \mu ||v_\mu||^2 = 0$.
@@ -576,7 +576,7 @@ $\forall \mathcal{A}\in End(V):$ о.п.с и все с.ч. $\lambda\geq0$, то 
 
 \uline{Покажем существование:}
 
-$\mathcal{A}$ - о.п.с. $\Leftrightarrow \mathcal{A} = \sum\limits_{\lambda}\lambda P_\lambda$, где $P_\lambda $ проекторы на $V_\lambda$. 
+$\mathcal{A}$ - о.п.с. $\Leftrightarrow \mathcal{A} = \sum\limits_{\lambda}\lambda P_\lambda$, где $P_\lambda $ проекторы на $V_\lambda$.
 
 $B:= \sum\limits_{\lambda}\sqrt{\lambda} P_\lambda$. По теореме о спектральном разложении это о.п.с. со всеми собственными числами больше нуля, а также $B^2 = \mathcal{A}$, откуда существование показано.
 
@@ -595,7 +595,7 @@ $V = \bigoplus\limits_\mu V_\mu^C$, а также $V = \bigoplus\limits_\lambda 
 
 Во-первых из вышесказанного мы получили, что $\forall \mu: \exists \lambda = \mu^2: V_\mu^C \subseteq V_\lambda$.
 
-Заметим, что $V = \bigoplus\limits_\mu V_\mu^C\subseteq 
+Заметим, что $V = \bigoplus\limits_\mu V_\mu^C\subseteq
 \bigoplus\limits_{\lambda}V_\lambda = V$
 
 Откуда у меня на самом деле равенсто: $V_\lambda = V_\mu ^C$. $\Rightarrow C = \sum\limits_\lambda \sqrt{\lambda} P_\lambda = B$
@@ -617,7 +617,7 @@ $\exists! \mathcal{H} \in End(V), \mathcal{H}\geq 0$ самосопряженн�
     \item $(\mathcal{A}\mathcal{A}^*)^* = \mathcal{A}^{**}\mathcal{A}^* = \mathcal{A}\mathcal{A}^*$
      \item $(\mathcal{A}^*\mathcal{A})^* = \mathcal{A}^{*}\mathcal{A}^{**} = \mathcal{A}^*\mathcal{A}$
 \end{enumerate}
-Теперь покажем, что они оба $\geq 0$: 
+Теперь покажем, что они оба $\geq 0$:
 $$\forall u \in V: (\mathcal{AA}^*u,u)=(\mathcal{A}u, \mathcal{A}u) \geq  0$$
 $$\forall u \in V: (u,\mathcal{AA}^*u)=(\mathcal{A}^*u, \mathcal{A}^*u) \geq  0$$
 $\mathcal{A}^*\mathcal{A} \geq 0$, о.п.с, самосопряженный, откуда спектр вещественный, тогда существует ортонормированный базис из с.в. $V  =span(v_1,\ldots,v_n)$, $\lambda_1,\ldots,\lambda_m$ - собственные числа  $\mathcal{A}^*\mathcal{A}$.
@@ -630,7 +630,7 @@ $$(\mathcal{A} v_i, \mathcal{A}v_j)=(\mathcal{A}^* \mathcal{A} v_\lambda , v_\mu
 $(\mathcal{A}^*\mathcal{A}v_i,v_i) = \lambda_i (v_i,v_i) = \lambda_i$, $||\mathcal{A}v_i|| = \sqrt{\lambda_i}$
 
 Тогда получаю, что у меня некоторые из $\mathcal{A}v_i$ могли стать нулями (там где $\lambda = 0$). Дополним векторами из $V$ до о.н.б. и получим:
-$$ z_k = \cfrac{\mathcal{A}v_k}{\sqrt{\lambda_k}}, \lambda_k \neq 0 \quad \quad 
+$$ z_k = \cfrac{\mathcal{A}v_k}{\sqrt{\lambda_k}}, \lambda_k \neq 0 \quad \quad
 \forall j = 1\ldots n: \mathcal{A}v_j = \sqrt{\lambda_j} z_j$$
 Определим $U$: $Uv_i = z_i$, переводит о.н.б в о.н.б, откуда изометрич.
 
@@ -640,7 +640,7 @@ $$ z_k = \cfrac{\mathcal{A}v_k}{\sqrt{\lambda_k}}, \lambda_k \neq 0 \quad \quad
 $$(HU)v_j = \mathcal{H}(U v_j) = \mathcal{H}z_j =\sqrt{\lambda_j}z_j = \mathcal{A}v_j$$
 по ранее замеченному. То есть для любого вектора из базиса у нас выполнено такое равенство, то есть $\mathcal{A} = \mathcal{H} U$.
 
-\uline{Докажем единственность:} 
+\uline{Докажем единственность:}
 
 $\mathcal{A} = \mathcal{H} U, \mathcal{A}^* = U^* \mathcal{H}^* = U^{-1}\mathcal{H}$
 
@@ -658,7 +658,7 @@ $\mathcal{A} = \mathcal{H}U \Rightarrow \mathcal{H}^{-1}\mathcal{A} = U$, при
 
 \hfill Q.E.D.
 
-\textbf{Замечание:} В зависимости от пространства может меняться обозначение. Если мы смотрим евклидово пространство, то полярное разложение это $A = SQ$, где $S$ - симметричная, $Q$ - ортогональная. 
+\textbf{Замечание:} В зависимости от пространства может меняться обозначение. Если мы смотрим евклидово пространство, то полярное разложение это $A = SQ$, где $S$ - симметричная, $Q$ - ортогональная.
 
 \textbf{Следствие:} $\forall \mathcal{A}\in End(V): \exists! \mathcal{H}_1 \geq 0, \exists U_1$ изометрич., так что $\mathcal{A} = U_1H_1$.
 
@@ -677,12 +677,12 @@ $U^{-1} = U_1$ оба изометричны из свойств изометр�
 \deff{def: }$\mathcal{A} = \mathcal{H} U = U_1 \mathcal{H}_1$
 
 $H  =\sqrt{\mathcal{A}\mathcal{A}^*}$ - \deff{левый модуль} $\mathcal{A}$.
- 
+
 $H_1  =\sqrt{\mathcal{A}^*\mathcal{A}}$ - \deff{правый модуль} $\mathcal{A}$.
 
 
 
-\textbf{Замечание.} Полярное разложение придумали, чтобы легче с комплексными работать. $U$ - повороты, $H$ - сжатие, растяжение. 
+\textbf{Замечание.} Полярное разложение придумали, чтобы легче с комплексными работать. $U$ - повороты, $H$ - сжатие, растяжение.
 
 \pagebreak
 \subsection{Разложения матриц: LDU, Холецкого, QR.}
@@ -691,13 +691,13 @@ $H_1  =\sqrt{\mathcal{A}^*\mathcal{A}}$ - \deff{правый модуль} $\mat
 $$L = \begin{pmatrix}
     1 & & 0\\
     & \ddots & \\
-    * &  & 1 
+    * &  & 1
 \end{pmatrix}$$
-\deff{def:} $U = (u_{ij})_{n\times n}$  называется \deff{унитреугольной верхней} (правой) матрицы если: 
+\deff{def:} $U = (u_{ij})_{n\times n}$  называется \deff{унитреугольной верхней} (правой) матрицы если:
 $$L = \begin{pmatrix}
     1 & & *\\
     & \ddots & \\
-    0 &  & 1 
+    0 &  & 1
 \end{pmatrix}$$
 \textbf{Замечание:} Их определители равны 1.
 
@@ -730,7 +730,7 @@ $$A = LDU$$
 
     Теперь имея это мы получаем $\Delta_k = \det A_k = \det L_k \det D_k \det U_k = d_1 * \ldots * d_k \neq 0$
 
-    $\Rightarrow \Delta_{k+1} = \Delta_k d_{k+1}$, то есть: $d_{k+1} = \cfrac{\Delta_{k+1}}{\Delta_k}, k = 1,\ldots, n$, а так как $d_k\neq 0 $ для 
+    $\Rightarrow \Delta_{k+1} = \Delta_k d_{k+1}$, то есть: $d_{k+1} = \cfrac{\Delta_{k+1}}{\Delta_k}, k = 1,\ldots, n$, а так как $d_k\neq 0 $ для
     тих $k$ то наше утверждение выполнено и мы доказали теорему в левую сторону.
 
     \uline{Докажем теорему в правую сторону:}
@@ -738,7 +738,7 @@ $$A = LDU$$
     Пусть $\Delta_k \neq 0, k = 1\ldots n-1$. Воспользуемся методом математической индукции:
     \begin{enumerate}
         \item[] \textbf{База:}
-        
+
         $n=1$, $A = (a_{11}), L= (1), U(1) , D = (a_{11})$, очевидно, $A = LDU$ единственно.
         \item[] \textbf{ИП:}
 
@@ -754,10 +754,10 @@ $$A = LDU$$
         Теперь будем делать финт ушами: Я хочу получить: $A_{k+1} = L_{k+1}D_{k+1}U_{k+1}$. При этом если такое разложение существует, то мы можем воспользоваться фактом, который мы доказали в начале этой теоремы: $(A_{k+1})_k = (L_{k+1})_k(D_{k+1})_k (U_{k+1})_k$. При этом из предположения индукции такое разложения у меня единственно, то есть если матрицы $L_{k+1}, D_{k+1}, U_{k+1}$ существуют, то должны иметь вид:
         $$L_{k+1} = \begin{pmatrix}
             L_k & 0\\
-            x & 1 
+            x & 1
         \end{pmatrix}, U_{k+1} = \begin{pmatrix}
             U_k & y\\
-            0 & 1 
+            0 & 1
         \end{pmatrix}, D_{k+1} = \begin{pmatrix}
             d_1 &  &  & 0\\
              &  \ddots &  &\\
@@ -788,14 +788,14 @@ $$A = LDU$$
         Откуда существует и единственен $\Rightarrow d_{k+1} = a_{k+1 k+1} -xD_Ky = \cfrac{\Delta_{k+1}}{\Delta_k}$
 
          То есть ИП доказан.
-         
+
          \textbf{Замечание:} на последнем шаге нам не важно, что $d_n=0$.
-    
+
     \end{enumerate}
-    
-    
+
+
     \hfill Q.E.D.
-    
+
 
 \textbf{Замечание:}
 \begin{enumerate}
@@ -829,7 +829,7 @@ $$(A | E) \rightarrow{} \begin{pmatrix}[ccc|ccc]
 
 \deff{def:} $L_{ij}(\lambda)$ - \deff{элементарная унитреугольная матрица}, это единичная матрица с $\lambda$ в $i$-ой строчке $j$-ом столбце.
 
-\textbf{Замечание:} При умножении матрицы $A$ на $L_{ij}$ происходит прибавление к $i$ строке $\lambda \cdot$ j-ая строка. 
+\textbf{Замечание:} При умножении матрицы $A$ на $L_{ij}$ происходит прибавление к $i$ строке $\lambda \cdot$ j-ая строка.
 
 \textbf{Замечание:} $(L_{ij}(\lambda))^{-1} = L_{ij}(-\lambda)$.
 
@@ -882,13 +882,13 @@ $$Q = (A_1 \ldots A_n) \begin{pmatrix}
     u_{11} & u_{12} & \ldots & u_{1n}\\
      & u_{22} & &\vdots\\
     & & \ddots & u_{n-1n}\\
-   0 & & & u_{nn} 
+   0 & & & u_{nn}
 \end{pmatrix}$$
 Пусть матрица справа это $R^{-1}$.
 
 $q_{i}^T \overline{q_j} = \delta_{ij}$ по построению.
 
-$\Leftrightarrow Q^T \overline{Q} = E \Leftrightarrow Q$ унит/ортог. 
+$\Leftrightarrow Q^T \overline{Q} = E \Leftrightarrow Q$ унит/ортог.
 
 $Q = AR^{-1}$
 
